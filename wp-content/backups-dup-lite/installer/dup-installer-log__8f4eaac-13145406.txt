@@ -1,0 +1,1911 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 11:51:14
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.33                                |7.4.25
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.25 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.47 (Win64) OpenSSL/1.1.1a mod_fcgid/2.3.10-dev
+DOC ROOT____________: "C:/laragon/www/e-mobility-rentals"
+REQUEST URL_________: "http://e-mobility-rentals.test"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "C:/laragon/www/e-mobility-rentals"
+URL_NEW_____________: "http://e-mobility-rentals.test"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "C:/laragon/www/e-mobility-rentals/20230321_emobilityrentals_[HASH]_20230413145406_archive.zip"
+ARCHIVE SIZE________: 414.63MB
+CREATED_____________: 2023-04-13 14:54:06
+WP VERSION__________: 6.1.1
+DUP VERSION_________: 1.5.2.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.3.38
+DB FILE SIZE________: 55.52MB
+DB TABLES___________: 137
+DB ROWS_____________: 25005
+URL HOME____________: https://e-mobility-rentals.com
+URL CORE____________: https://e-mobility-rentals.com
+URL CONTENT_________: https://e-mobility-rentals.com/wp-content
+URL UPLOAD__________: https://e-mobility-rentals.com/wp-content/uploads
+URL PLUGINS_________: https://e-mobility-rentals.com/wp-content/plugins
+URL MU PLUGINS______: https://e-mobility-rentals.com/wp-content/mu-plugins
+URL THEMES__________: https://e-mobility-rentals.com/wp-content/themes
+PATH HOME___________: /home/emobilityrentals/public_html
+PATH ABS____________: /home/emobilityrentals/public_html
+PATH WPCONFIG_______: /home/emobilityrentals/public_html
+PATH WPCONTENT______: /home/emobilityrentals/public_html/wp-content
+PATH UPLOADS________: /home/emobilityrentals/public_html/wp-content/uploads
+PATH PLUGINS________: /home/emobilityrentals/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home/emobilityrentals/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home/emobilityrentals/public_html/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "e-mobility-rentals.com/"
+
+PLUGINS
+PLUGIN [SLUG:click-to-chat-for-whatsapp/click-to-chat.php      ][ON:true ]  Click to Chat
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:copy-delete-posts/copy-delete-posts.php           ][ON:true ]  Copy & Delete Posts
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:envato-elements/envato-elements.php               ][ON:true ]  Envato Elements
+PLUGIN [SLUG:google-analytics-for-wordpress/googleanalytics.php][ON:true ]  Google Analytics for WordPress by MonsterInsights
+PLUGIN [SLUG:gtranslate/gtranslate.php                         ][ON:false]  GTranslate
+PLUGIN [SLUG:jetpack/jetpack.php                               ][ON:false]  Jetpack
+PLUGIN [SLUG:astra-sites/astra-sites.php                       ][ON:true ]  Starter Templates
+PLUGIN [SLUG:vikrentcar/vikrentcar.php                         ][ON:true ]  VikRentCar
+PLUGIN [SLUG:vikupdater/vikupdater.php                         ][ON:true ]  VikUpdater
+PLUGIN [SLUG:vikwidgetsloader/vikwidgetsloader.php             ][ON:true ]  VikWidgetsLoader
+PLUGIN [SLUG:woocommerce/woocommerce.php                       ][ON:true ]  WooCommerce
+PLUGIN [SLUG:woocommerce-easy-booking-system/woocommerce-easy-booking.php][ON:false]  WooCommerce Easy Booking
+PLUGIN [SLUG:wpforms-lite/wpforms.php                          ][ON:true ]  WPForms Lite
+
+********************************************************************************
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.33702]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\ctrls\ctrl.base.php:227][DELTA:   2.31683]  MESSAGE:END RENDER PAGE
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00011]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/e-mobility-rentals"
+--------------------------------------
+LOG-TIME[DELTA:   0.04363]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00016]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01077]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.07757]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00459]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00255]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00047]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+LOG-TIME[DELTA:   0.00052]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02677]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00103]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00081]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00097]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00043]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00083]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/e-mobility-rentals"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 11:51:37
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "e-Mobility Rentals"
+HOME URL NEW________: "http://e-mobility-rentals.test"
+SITE URL NEW________: "http://e-mobility-rentals.test/"
+CONTENT URL NEW_____: "http://e-mobility-rentals.test/wp-content"
+UPLOAD URL NEW______: "http://e-mobility-rentals.test/wp-content/uploads"
+PLUGINS URL NEW_____: "http://e-mobility-rentals.test/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://e-mobility-rentals.test/wp-content/mu-plugins"
+HOME PATH NEW_______: "C:/laragon/www/e-mobility-rentals"
+SITE PATH NEW_______: "C:/laragon/www/e-mobility-rentals/"
+CONTENT PATH NEW____: "C:/laragon/www/e-mobility-rentals/wp-content"
+UPLOAD PATH NEW_____: "C:/laragon/www/e-mobility-rentals/wp-content/uploads"
+PLUGINS PATH NEW____: "C:/laragon/www/e-mobility-rentals/wp-content/plugins"
+MUPLUGINS PATH NEW__: "C:/laragon/www/e-mobility-rentals/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "C:/laragon/www/e-mobility-rentals/dup-installer"
+	FILE: "C:/laragon/www/e-mobility-rentals/20230321_emobilityrentals_[HASH]_20230413145406_installer-backup.php"
+	FILE: "C:/laragon/www/e-mobility-rentals/20230321_emobilityrentals_[HASH]_20230413145406_archive.zip"
+	FILE: "C:/laragon/www/e-mobility-rentals/installer.php"
+	FILE: "C:/laragon/www/e-mobility-rentals/dup-installer-bootlog__8f4eaac-13145406.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "20230321_emobilityrentals_[HASH]_20230413145406_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 5.0057 sec. - Files processed: 7,015 of 21,729
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7015
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/e-mobility-rentals"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0147 sec. - Files processed: 13,858 of 21,729
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13858
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/e-mobility-rentals"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0059 sec. - Files processed: 20,599 of 21,729
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 20599
+--------------------------------------
+PATHS MAPPING : "C:/laragon/www/e-mobility-rentals"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 22330
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 11:51:54 - RUNTIME: 16.8193 sec. - Files processed: 21,729 of 21,729
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wptp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 11:51:54
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wptp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wptp_actionscheduler_actions"____________________[ROWS:     140] [EXTRACT|REPLACE] [INST NAME: wptp_actionscheduler_actions]
+TABLE "wptp_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_actionscheduler_claims]
+TABLE "wptp_actionscheduler_groups"_____________________[ROWS:       7] [EXTRACT|REPLACE] [INST NAME: wptp_actionscheduler_groups]
+TABLE "wptp_actionscheduler_logs"_______________________[ROWS:     414] [EXTRACT|REPLACE] [INST NAME: wptp_actionscheduler_logs]
+TABLE "wptp_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_commentmeta]
+TABLE "wptp_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_comments]
+TABLE "wptp_cpappbk_forms"______________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_cpappbk_forms]
+TABLE "wptp_cpappbk_icalexport"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_cpappbk_icalexport]
+TABLE "wptp_cpappbk_messages"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_cpappbk_messages]
+TABLE "wptp_duplicator_packages"________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_duplicator_packages]
+TABLE "wptp_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_e_events]
+TABLE "wptp_gla_budget_recommendations"_________________[ROWS:    4230] [EXTRACT|REPLACE] [INST NAME: wptp_gla_budget_recommendations]
+TABLE "wptp_gla_merchant_issues"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_gla_merchant_issues]
+TABLE "wptp_gla_shipping_rates"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_gla_shipping_rates]
+TABLE "wptp_gla_shipping_times"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_gla_shipping_times]
+TABLE "wptp_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_links]
+TABLE "wptp_mailpoet_custom_fields"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_custom_fields]
+TABLE "wptp_mailpoet_dynamic_segment_filters"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_dynamic_segment_filters]
+TABLE "wptp_mailpoet_feature_flags"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_feature_flags]
+TABLE "wptp_mailpoet_forms"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_forms]
+TABLE "wptp_mailpoet_log"_______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_log]
+TABLE "wptp_mailpoet_mapping_to_external_entities"______[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_mapping_to_external_entities]
+TABLE "wptp_mailpoet_newsletters"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletters]
+TABLE "wptp_mailpoet_newsletter_links"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_links]
+TABLE "wptp_mailpoet_newsletter_option"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_option]
+TABLE "wptp_mailpoet_newsletter_option_fields"__________[ROWS:      22] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_option_fields]
+TABLE "wptp_mailpoet_newsletter_posts"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_posts]
+TABLE "wptp_mailpoet_newsletter_segment"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_segment]
+TABLE "wptp_mailpoet_newsletter_templates"______________[ROWS:      76] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_newsletter_templates]
+TABLE "wptp_mailpoet_scheduled_tasks"___________________[ROWS:      15] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_scheduled_tasks]
+TABLE "wptp_mailpoet_scheduled_task_subscribers"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_scheduled_task_subscribers]
+TABLE "wptp_mailpoet_segments"__________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_segments]
+TABLE "wptp_mailpoet_sending_queues"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_sending_queues]
+TABLE "wptp_mailpoet_settings"__________________________[ROWS:      16] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_settings]
+TABLE "wptp_mailpoet_statistics_bounces"________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_bounces]
+TABLE "wptp_mailpoet_statistics_clicks"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_clicks]
+TABLE "wptp_mailpoet_statistics_forms"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_forms]
+TABLE "wptp_mailpoet_statistics_newsletters"____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_newsletters]
+TABLE "wptp_mailpoet_statistics_opens"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_opens]
+TABLE "wptp_mailpoet_statistics_unsubscribes"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_unsubscribes]
+TABLE "wptp_mailpoet_statistics_woocommerce_purchases"__[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_statistics_woocommerce_purchases]
+TABLE "wptp_mailpoet_stats_notifications"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_stats_notifications]
+TABLE "wptp_mailpoet_subscribers"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_subscribers]
+TABLE "wptp_mailpoet_subscriber_custom_field"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_subscriber_custom_field]
+TABLE "wptp_mailpoet_subscriber_ips"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_subscriber_ips]
+TABLE "wptp_mailpoet_subscriber_segment"________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_subscriber_segment]
+TABLE "wptp_mailpoet_user_agents"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_user_agents]
+TABLE "wptp_mailpoet_user_flags"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_mailpoet_user_flags]
+TABLE "wptp_options"____________________________________[ROWS:     735] [EXTRACT|REPLACE] [INST NAME: wptp_options]
+TABLE "wptp_postmeta"___________________________________[ROWS:    4226] [EXTRACT|REPLACE] [INST NAME: wptp_postmeta]
+TABLE "wptp_posts"______________________________________[ROWS:     909] [EXTRACT|REPLACE] [INST NAME: wptp_posts]
+TABLE "wptp_sync_hotel_entries"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_sync_hotel_entries]
+TABLE "wptp_sync_options"_______________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wptp_sync_options]
+TABLE "wptp_sync_payments"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_sync_payments]
+TABLE "wptp_sync_rent_car_entries"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_sync_rent_car_entries]
+TABLE "wptp_sync_restau_entries"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_sync_restau_entries]
+TABLE "wptp_termmeta"___________________________________[ROWS:      12] [EXTRACT|REPLACE] [INST NAME: wptp_termmeta]
+TABLE "wptp_terms"______________________________________[ROWS:      31] [EXTRACT|REPLACE] [INST NAME: wptp_terms]
+TABLE "wptp_term_relationships"_________________________[ROWS:      50] [EXTRACT|REPLACE] [INST NAME: wptp_term_relationships]
+TABLE "wptp_term_taxonomy"______________________________[ROWS:      31] [EXTRACT|REPLACE] [INST NAME: wptp_term_taxonomy]
+TABLE "wptp_trp_gettext_en_us"__________________________[ROWS:    4080] [EXTRACT|REPLACE] [INST NAME: wptp_trp_gettext_en_us]
+TABLE "wptp_usermeta"___________________________________[ROWS:      56] [EXTRACT|REPLACE] [INST NAME: wptp_usermeta]
+TABLE "wptp_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_users]
+TABLE "wptp_vikrentcar_busy"____________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_busy]
+TABLE "wptp_vikrentcar_caratteristiche"_________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_caratteristiche]
+TABLE "wptp_vikrentcar_cars"____________________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_cars]
+TABLE "wptp_vikrentcar_cars_icals"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_cars_icals]
+TABLE "wptp_vikrentcar_categories"______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_categories]
+TABLE "wptp_vikrentcar_condtexts"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_condtexts]
+TABLE "wptp_vikrentcar_config"__________________________[ROWS:      80] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_config]
+TABLE "wptp_vikrentcar_countries"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_countries]
+TABLE "wptp_vikrentcar_coupons"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_coupons]
+TABLE "wptp_vikrentcar_critical_dates"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_critical_dates]
+TABLE "wptp_vikrentcar_cronjobs"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_cronjobs]
+TABLE "wptp_vikrentcar_custfields"______________________[ROWS:      11] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_custfields]
+TABLE "wptp_vikrentcar_customers"_______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_customers]
+TABLE "wptp_vikrentcar_customers_orders"________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_customers_orders]
+TABLE "wptp_vikrentcar_dispcost"________________________[ROWS:    8409] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_dispcost]
+TABLE "wptp_vikrentcar_dispcosthours"___________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_dispcosthours]
+TABLE "wptp_vikrentcar_gpayments"_______________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_gpayments]
+TABLE "wptp_vikrentcar_hourscharges"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_hourscharges]
+TABLE "wptp_vikrentcar_iva"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_iva]
+TABLE "wptp_vikrentcar_locfees"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_locfees]
+TABLE "wptp_vikrentcar_oohfees"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_oohfees]
+TABLE "wptp_vikrentcar_oohfees_locxref"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_oohfees_locxref]
+TABLE "wptp_vikrentcar_optionals"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_optionals]
+TABLE "wptp_vikrentcar_orderhistory"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_orderhistory]
+TABLE "wptp_vikrentcar_orders"__________________________[ROWS:      24] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_orders]
+TABLE "wptp_vikrentcar_places"__________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_places]
+TABLE "wptp_vikrentcar_prices"__________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_prices]
+TABLE "wptp_vikrentcar_restrictions"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_restrictions]
+TABLE "wptp_vikrentcar_seasons"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_seasons]
+TABLE "wptp_vikrentcar_texts"___________________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_texts]
+TABLE "wptp_vikrentcar_tmplock"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_tmplock]
+TABLE "wptp_vikrentcar_trackings"_______________________[ROWS:     204] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_trackings]
+TABLE "wptp_vikrentcar_tracking_infos"__________________[ROWS:     431] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_tracking_infos]
+TABLE "wptp_vikrentcar_translations"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_translations]
+TABLE "wptp_vikrentcar_usersdata"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_usersdata]
+TABLE "wptp_vikrentcar_wpshortcodes"____________________[ROWS:      38] [EXTRACT|REPLACE] [INST NAME: wptp_vikrentcar_wpshortcodes]
+TABLE "wptp_wc_admin_notes"_____________________________[ROWS:      85] [EXTRACT|REPLACE] [INST NAME: wptp_wc_admin_notes]
+TABLE "wptp_wc_admin_note_actions"______________________[ROWS:     102] [EXTRACT|REPLACE] [INST NAME: wptp_wc_admin_note_actions]
+TABLE "wptp_wc_category_lookup"_________________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wptp_wc_category_lookup]
+TABLE "wptp_wc_customer_lookup"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_customer_lookup]
+TABLE "wptp_wc_download_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_download_log]
+TABLE "wptp_wc_order_coupon_lookup"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_order_coupon_lookup]
+TABLE "wptp_wc_order_product_lookup"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_order_product_lookup]
+TABLE "wptp_wc_order_stats"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_order_stats]
+TABLE "wptp_wc_order_tax_lookup"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_order_tax_lookup]
+TABLE "wptp_wc_product_attributes_lookup"_______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_product_attributes_lookup]
+TABLE "wptp_wc_product_download_directories"____________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wptp_wc_product_download_directories]
+TABLE "wptp_wc_product_meta_lookup"_____________________[ROWS:       9] [EXTRACT|REPLACE] [INST NAME: wptp_wc_product_meta_lookup]
+TABLE "wptp_wc_rate_limits"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_rate_limits]
+TABLE "wptp_wc_reserved_stock"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_reserved_stock]
+TABLE "wptp_wc_tax_rate_classes"________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wptp_wc_tax_rate_classes]
+TABLE "wptp_wc_webhooks"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wc_webhooks]
+TABLE "wptp_woocommerce_api_keys"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_api_keys]
+TABLE "wptp_woocommerce_attribute_taxonomies"___________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_attribute_taxonomies]
+TABLE "wptp_woocommerce_downloadable_product_permissions"[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_downloadable_product_permissions]
+TABLE "wptp_woocommerce_log"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_log]
+TABLE "wptp_woocommerce_order_itemmeta"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_order_itemmeta]
+TABLE "wptp_woocommerce_order_items"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_order_items]
+TABLE "wptp_woocommerce_payment_tokenmeta"______________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_payment_tokenmeta]
+TABLE "wptp_woocommerce_payment_tokens"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_payment_tokens]
+TABLE "wptp_woocommerce_sessions"_______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_sessions]
+TABLE "wptp_woocommerce_shipping_zones"_________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_shipping_zones]
+TABLE "wptp_woocommerce_shipping_zone_locations"________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_shipping_zone_locations]
+TABLE "wptp_woocommerce_shipping_zone_methods"__________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_shipping_zone_methods]
+TABLE "wptp_woocommerce_tax_rates"______________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_tax_rates]
+TABLE "wptp_woocommerce_tax_rate_locations"_____________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_woocommerce_tax_rate_locations]
+TABLE "wptp_wpdevart_calendars"_________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_calendars]
+TABLE "wptp_wpdevart_dates"_____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_dates]
+TABLE "wptp_wpdevart_extras"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_extras]
+TABLE "wptp_wpdevart_forms"_____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_forms]
+TABLE "wptp_wpdevart_payments"__________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_payments]
+TABLE "wptp_wpdevart_reservations"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_reservations]
+TABLE "wptp_wpdevart_themes"____________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wptp_wpdevart_themes]
+TABLE "wptp_wpforms_tasks_meta"_________________________[ROWS:       4] [EXTRACT|REPLACE] [INST NAME: wptp_wpforms_tasks_meta]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.33 -- Build Server: 10.3.38
+FILE SIZE:	dup-database__[HASH].sql (38.15MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`root`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	1203
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wptp_actionscheduler_actions"____________________[ROWS:   140]
+TABLE "wptp_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "wptp_actionscheduler_groups"_____________________[ROWS:     7]
+TABLE "wptp_actionscheduler_logs"_______________________[ROWS:   414]
+TABLE "wptp_commentmeta"________________________________[ROWS:     0]
+TABLE "wptp_comments"___________________________________[ROWS:     1]
+TABLE "wptp_cpappbk_forms"______________________________[ROWS:     1]
+TABLE "wptp_cpappbk_icalexport"_________________________[ROWS:     0]
+TABLE "wptp_cpappbk_messages"___________________________[ROWS:     0]
+TABLE "wptp_duplicator_packages"________________________[ROWS:     3]
+TABLE "wptp_e_events"___________________________________[ROWS:     0]
+TABLE "wptp_gla_budget_recommendations"_________________[ROWS:  4230]
+TABLE "wptp_gla_merchant_issues"________________________[ROWS:     0]
+TABLE "wptp_gla_shipping_rates"_________________________[ROWS:     0]
+TABLE "wptp_gla_shipping_times"_________________________[ROWS:     0]
+TABLE "wptp_links"______________________________________[ROWS:     0]
+TABLE "wptp_mailpoet_custom_fields"_____________________[ROWS:     0]
+TABLE "wptp_mailpoet_dynamic_segment_filters"___________[ROWS:     0]
+TABLE "wptp_mailpoet_feature_flags"_____________________[ROWS:     0]
+TABLE "wptp_mailpoet_forms"_____________________________[ROWS:     0]
+TABLE "wptp_mailpoet_log"_______________________________[ROWS:     0]
+TABLE "wptp_mailpoet_mapping_to_external_entities"______[ROWS:     0]
+TABLE "wptp_mailpoet_newsletter_links"__________________[ROWS:     0]
+TABLE "wptp_mailpoet_newsletter_option"_________________[ROWS:     0]
+TABLE "wptp_mailpoet_newsletter_option_fields"__________[ROWS:    22]
+TABLE "wptp_mailpoet_newsletter_posts"__________________[ROWS:     0]
+TABLE "wptp_mailpoet_newsletter_segment"________________[ROWS:     0]
+TABLE "wptp_mailpoet_newsletter_templates"______________[ROWS:    76]
+TABLE "wptp_mailpoet_newsletters"_______________________[ROWS:     0]
+TABLE "wptp_mailpoet_scheduled_task_subscribers"________[ROWS:     0]
+TABLE "wptp_mailpoet_scheduled_tasks"___________________[ROWS:    15]
+TABLE "wptp_mailpoet_segments"__________________________[ROWS:     3]
+TABLE "wptp_mailpoet_sending_queues"____________________[ROWS:     0]
+TABLE "wptp_mailpoet_settings"__________________________[ROWS:    16]
+TABLE "wptp_mailpoet_statistics_bounces"________________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_clicks"_________________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_forms"__________________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_newsletters"____________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_opens"__________________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_unsubscribes"___________[ROWS:     0]
+TABLE "wptp_mailpoet_statistics_woocommerce_purchases"__[ROWS:     0]
+TABLE "wptp_mailpoet_stats_notifications"_______________[ROWS:     0]
+TABLE "wptp_mailpoet_subscriber_custom_field"___________[ROWS:     0]
+TABLE "wptp_mailpoet_subscriber_ips"____________________[ROWS:     0]
+TABLE "wptp_mailpoet_subscriber_segment"________________[ROWS:     1]
+TABLE "wptp_mailpoet_subscribers"_______________________[ROWS:     1]
+TABLE "wptp_mailpoet_user_agents"_______________________[ROWS:     0]
+TABLE "wptp_mailpoet_user_flags"________________________[ROWS:     0]
+TABLE "wptp_options"____________________________________[ROWS:   735]
+TABLE "wptp_postmeta"___________________________________[ROWS:  4226]
+TABLE "wptp_posts"______________________________________[ROWS:   909]
+TABLE "wptp_sync_hotel_entries"_________________________[ROWS:     0]
+TABLE "wptp_sync_options"_______________________________[ROWS:     9]
+TABLE "wptp_sync_payments"______________________________[ROWS:     0]
+TABLE "wptp_sync_rent_car_entries"______________________[ROWS:     0]
+TABLE "wptp_sync_restau_entries"________________________[ROWS:     0]
+TABLE "wptp_term_relationships"_________________________[ROWS:    50]
+TABLE "wptp_term_taxonomy"______________________________[ROWS:    31]
+TABLE "wptp_termmeta"___________________________________[ROWS:    12]
+TABLE "wptp_terms"______________________________________[ROWS:    31]
+TABLE "wptp_trp_gettext_en_us"__________________________[ROWS:  4080]
+TABLE "wptp_usermeta"___________________________________[ROWS:    56]
+TABLE "wptp_users"______________________________________[ROWS:     1]
+TABLE "wptp_vikrentcar_busy"____________________________[ROWS:    24]
+TABLE "wptp_vikrentcar_caratteristiche"_________________[ROWS:     4]
+TABLE "wptp_vikrentcar_cars"____________________________[ROWS:    26]
+TABLE "wptp_vikrentcar_cars_icals"______________________[ROWS:     0]
+TABLE "wptp_vikrentcar_categories"______________________[ROWS:     3]
+TABLE "wptp_vikrentcar_condtexts"_______________________[ROWS:     0]
+TABLE "wptp_vikrentcar_config"__________________________[ROWS:    80]
+TABLE "wptp_vikrentcar_countries"_______________________[ROWS:     1]
+TABLE "wptp_vikrentcar_coupons"_________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_critical_dates"__________________[ROWS:     0]
+TABLE "wptp_vikrentcar_cronjobs"________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_custfields"______________________[ROWS:    11]
+TABLE "wptp_vikrentcar_customers"_______________________[ROWS:     5]
+TABLE "wptp_vikrentcar_customers_orders"________________[ROWS:    24]
+TABLE "wptp_vikrentcar_dispcost"________________________[ROWS:  8409]
+TABLE "wptp_vikrentcar_dispcosthours"___________________[ROWS:     0]
+TABLE "wptp_vikrentcar_gpayments"_______________________[ROWS:     3]
+TABLE "wptp_vikrentcar_hourscharges"____________________[ROWS:     0]
+TABLE "wptp_vikrentcar_iva"_____________________________[ROWS:     1]
+TABLE "wptp_vikrentcar_locfees"_________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_oohfees"_________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_oohfees_locxref"_________________[ROWS:     0]
+TABLE "wptp_vikrentcar_optionals"_______________________[ROWS:     0]
+TABLE "wptp_vikrentcar_orderhistory"____________________[ROWS:     0]
+TABLE "wptp_vikrentcar_orders"__________________________[ROWS:    24]
+TABLE "wptp_vikrentcar_places"__________________________[ROWS:     3]
+TABLE "wptp_vikrentcar_prices"__________________________[ROWS:     1]
+TABLE "wptp_vikrentcar_restrictions"____________________[ROWS:     0]
+TABLE "wptp_vikrentcar_seasons"_________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_texts"___________________________[ROWS:     9]
+TABLE "wptp_vikrentcar_tmplock"_________________________[ROWS:     0]
+TABLE "wptp_vikrentcar_tracking_infos"__________________[ROWS:   431]
+TABLE "wptp_vikrentcar_trackings"_______________________[ROWS:   204]
+TABLE "wptp_vikrentcar_translations"____________________[ROWS:     0]
+TABLE "wptp_vikrentcar_usersdata"_______________________[ROWS:     1]
+TABLE "wptp_vikrentcar_wpshortcodes"____________________[ROWS:    38]
+TABLE "wptp_wc_admin_note_actions"______________________[ROWS:   102]
+TABLE "wptp_wc_admin_notes"_____________________________[ROWS:    85]
+TABLE "wptp_wc_category_lookup"_________________________[ROWS:     3]
+TABLE "wptp_wc_customer_lookup"_________________________[ROWS:     0]
+TABLE "wptp_wc_download_log"____________________________[ROWS:     0]
+TABLE "wptp_wc_order_coupon_lookup"_____________________[ROWS:     0]
+TABLE "wptp_wc_order_product_lookup"____________________[ROWS:     0]
+TABLE "wptp_wc_order_stats"_____________________________[ROWS:     0]
+TABLE "wptp_wc_order_tax_lookup"________________________[ROWS:     0]
+TABLE "wptp_wc_product_attributes_lookup"_______________[ROWS:     0]
+TABLE "wptp_wc_product_download_directories"____________[ROWS:     2]
+TABLE "wptp_wc_product_meta_lookup"_____________________[ROWS:     9]
+TABLE "wptp_wc_rate_limits"_____________________________[ROWS:     0]
+TABLE "wptp_wc_reserved_stock"__________________________[ROWS:     0]
+TABLE "wptp_wc_tax_rate_classes"________________________[ROWS:     2]
+TABLE "wptp_wc_webhooks"________________________________[ROWS:     0]
+TABLE "wptp_woocommerce_api_keys"_______________________[ROWS:     0]
+TABLE "wptp_woocommerce_attribute_taxonomies"___________[ROWS:     0]
+TABLE "wptp_woocommerce_downloadable_product_permissions"[ROWS:     0]
+TABLE "wptp_woocommerce_log"____________________________[ROWS:     0]
+TABLE "wptp_woocommerce_order_itemmeta"_________________[ROWS:     0]
+TABLE "wptp_woocommerce_order_items"____________________[ROWS:     0]
+TABLE "wptp_woocommerce_payment_tokenmeta"______________[ROWS:     0]
+TABLE "wptp_woocommerce_payment_tokens"_________________[ROWS:     0]
+TABLE "wptp_woocommerce_sessions"_______________________[ROWS:     1]
+TABLE "wptp_woocommerce_shipping_zone_locations"________[ROWS:     0]
+TABLE "wptp_woocommerce_shipping_zone_methods"__________[ROWS:     0]
+TABLE "wptp_woocommerce_shipping_zones"_________________[ROWS:     0]
+TABLE "wptp_woocommerce_tax_rate_locations"_____________[ROWS:     0]
+TABLE "wptp_woocommerce_tax_rates"______________________[ROWS:     1]
+TABLE "wptp_wpdevart_calendars"_________________________[ROWS:     1]
+TABLE "wptp_wpdevart_dates"_____________________________[ROWS:     0]
+TABLE "wptp_wpdevart_extras"____________________________[ROWS:     1]
+TABLE "wptp_wpdevart_forms"_____________________________[ROWS:     1]
+TABLE "wptp_wpdevart_payments"__________________________[ROWS:     0]
+TABLE "wptp_wpdevart_reservations"______________________[ROWS:     0]
+TABLE "wptp_wpdevart_themes"____________________________[ROWS:     1]
+TABLE "wptp_wpforms_tasks_meta"_________________________[ROWS:     4]
+
+INSERT DATA RUNTIME: 4.0685 sec.
+STEP-2 COMPLETE @ 11:51:58 - RUNTIME: 4.0686 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/emobilityrentals/public_html REPLACE: C:/laragon/www/e-mobility-rentals/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/emobilityrentals/public_html REPLACE: C:/laragon/www/e-mobility-rentals [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://e-mobility-rentals.com REPLACE: http://e-mobility-rentals.test/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://e-mobility-rentals.com REPLACE: http://e-mobility-rentals.test [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 11:51:58
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = 1]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 256M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wptp_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    79]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     3]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wptp_actionscheduler_actions"____________________[ROWS:   140][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wptp_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_actionscheduler_groups"_____________________[ROWS:     7][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wptp_actionscheduler_logs"_______________________[ROWS:   414][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wptp_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_comments][0]
+
+EVALUATE TABLE: "wptp_cpappbk_forms"______________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_cpappbk_forms][0]
+
+EVALUATE TABLE: "wptp_cpappbk_icalexport"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_cpappbk_messages"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_gla_budget_recommendations"_________________[ROWS:  4230][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_gla_budget_recommendations][0]
+	CHUNK ACTION: CURRENT [search_replace][wptp_gla_budget_recommendations][1]
+	CHUNK ACTION: CURRENT [search_replace][wptp_gla_budget_recommendations][2]
+	CHUNK ACTION: CURRENT [search_replace][wptp_gla_budget_recommendations][3]
+	CHUNK ACTION: CURRENT [search_replace][wptp_gla_budget_recommendations][4]
+
+EVALUATE TABLE: "wptp_gla_merchant_issues"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_gla_shipping_rates"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_gla_shipping_times"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_custom_fields"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_dynamic_segment_filters"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_feature_flags"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_forms"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_log"_______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_mapping_to_external_entities"______[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletters"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_links"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_option"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_option_fields"__________[ROWS:    22][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_newsletter_option_fields][0]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_posts"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_segment"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_newsletter_templates"______________[ROWS:    76][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_newsletter_templates][0]
+
+EVALUATE TABLE: "wptp_mailpoet_scheduled_tasks"___________________[ROWS:    15][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_scheduled_tasks][0]
+
+EVALUATE TABLE: "wptp_mailpoet_scheduled_task_subscribers"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_segments"__________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_segments][0]
+
+EVALUATE TABLE: "wptp_mailpoet_sending_queues"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_settings"__________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_settings][0]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_bounces"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_clicks"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_forms"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_newsletters"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_opens"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_unsubscribes"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_statistics_woocommerce_purchases"__[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_stats_notifications"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_subscribers"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_subscribers][0]
+
+EVALUATE TABLE: "wptp_mailpoet_subscriber_custom_field"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_subscriber_ips"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_subscriber_segment"________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_mailpoet_subscriber_segment][0]
+
+EVALUATE TABLE: "wptp_mailpoet_user_agents"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_mailpoet_user_flags"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_options"____________________________________[ROWS:   656][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_options][0]
+
+EVALUATE TABLE: "wptp_postmeta"___________________________________[ROWS:  4226][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wptp_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wptp_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wptp_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wptp_postmeta][4]
+
+EVALUATE TABLE: "wptp_posts"______________________________________[ROWS:   909][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_posts][0]
+
+EVALUATE TABLE: "wptp_sync_hotel_entries"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_sync_options"_______________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_sync_options][0]
+
+EVALUATE TABLE: "wptp_sync_payments"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_sync_rent_car_entries"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_sync_restau_entries"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_termmeta"___________________________________[ROWS:    12][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_termmeta][0]
+
+EVALUATE TABLE: "wptp_terms"______________________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_terms][0]
+
+EVALUATE TABLE: "wptp_term_relationships"_________________________[ROWS:    50][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_term_taxonomy"______________________________[ROWS:    31][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_term_taxonomy][0]
+
+EVALUATE TABLE: "wptp_trp_gettext_en_us"__________________________[ROWS:  4080][PG:   5][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_trp_gettext_en_us][0]
+	CHUNK ACTION: CURRENT [search_replace][wptp_trp_gettext_en_us][1]
+	CHUNK ACTION: CURRENT [search_replace][wptp_trp_gettext_en_us][2]
+	CHUNK ACTION: CURRENT [search_replace][wptp_trp_gettext_en_us][3]
+	CHUNK ACTION: CURRENT [search_replace][wptp_trp_gettext_en_us][4]
+
+EVALUATE TABLE: "wptp_usermeta"___________________________________[ROWS:    56][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_usermeta][0]
+
+EVALUATE TABLE: "wptp_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_users][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_busy"____________________________[ROWS:    24][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_caratteristiche"_________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_caratteristiche][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_cars"____________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_cars][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_cars_icals"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_categories"______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_categories][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_condtexts"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_config"__________________________[ROWS:    80][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_config][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_countries"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_countries][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_coupons"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_critical_dates"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_cronjobs"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_custfields"______________________[ROWS:    11][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_custfields][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_customers"_______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_customers][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_customers_orders"________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_customers_orders][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_dispcost"________________________[ROWS:  8409][PG:   9][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][0]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][1]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][2]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][3]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][4]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][5]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][6]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][7]
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_dispcost][8]
+
+EVALUATE TABLE: "wptp_vikrentcar_dispcosthours"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_gpayments"_______________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_gpayments][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_hourscharges"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_iva"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_iva][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_locfees"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_oohfees"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_oohfees_locxref"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_optionals"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_orderhistory"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_orders"__________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_orders][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_places"__________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_places][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_prices"__________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_prices][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_restrictions"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_seasons"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_texts"___________________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_texts][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_tmplock"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_trackings"_______________________[ROWS:   204][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_trackings][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_tracking_infos"__________________[ROWS:   431][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_tracking_infos][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_translations"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_vikrentcar_usersdata"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_usersdata][0]
+
+EVALUATE TABLE: "wptp_vikrentcar_wpshortcodes"____________________[ROWS:    38][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_vikrentcar_wpshortcodes][0]
+
+EVALUATE TABLE: "wptp_wc_admin_notes"_____________________________[ROWS:    85][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wc_admin_notes][0]
+
+EVALUATE TABLE: "wptp_wc_admin_note_actions"______________________[ROWS:   102][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wc_admin_note_actions][0]
+
+EVALUATE TABLE: "wptp_wc_category_lookup"_________________________[ROWS:     3][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_customer_lookup"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_download_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_order_coupon_lookup"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_order_product_lookup"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_order_stats"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_order_tax_lookup"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_product_attributes_lookup"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_product_download_directories"____________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wc_product_download_directories][0]
+
+EVALUATE TABLE: "wptp_wc_product_meta_lookup"_____________________[ROWS:     9][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wc_product_meta_lookup][0]
+
+EVALUATE TABLE: "wptp_wc_rate_limits"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_reserved_stock"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wc_tax_rate_classes"________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wc_tax_rate_classes][0]
+
+EVALUATE TABLE: "wptp_wc_webhooks"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_api_keys"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_attribute_taxonomies"___________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_downloadable_product_permissions"[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_log"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_order_itemmeta"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_order_items"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_payment_tokenmeta"______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_payment_tokens"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_sessions"_______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_woocommerce_sessions][0]
+
+EVALUATE TABLE: "wptp_woocommerce_shipping_zones"_________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_shipping_zone_locations"________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_shipping_zone_methods"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_woocommerce_tax_rates"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_woocommerce_tax_rates][0]
+
+EVALUATE TABLE: "wptp_woocommerce_tax_rate_locations"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wpdevart_calendars"_________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wpdevart_calendars][0]
+
+EVALUATE TABLE: "wptp_wpdevart_dates"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wpdevart_extras"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wpdevart_extras][0]
+
+EVALUATE TABLE: "wptp_wpdevart_forms"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wpdevart_forms][0]
+
+EVALUATE TABLE: "wptp_wpdevart_payments"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wpdevart_reservations"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wptp_wpdevart_themes"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wpdevart_themes][0]
+	
+STEP-3 CHUNK STOP @ 11:52:03 - RUNTIME: 5.0165 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wptp_wpforms_tasks_meta"_________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/emobilityrentals/public_html" ==============> "C:/laragon/www/e-mobility-rentals"
+	SEARCH[urlnd]  2:"https://e-mobility-rentals.com" ==================> "http://e-mobility-rentals.test"
+	CHUNK ACTION: CURRENT [search_replace][wptp_wpforms_tasks_meta][0]
+--------------------------------------
+SCANNED:	Tables:137 	|	 Rows:24426 	|	 Cells:149552 
+UPDATED:	Tables:11 	|	 Rows:1448 	|	 Cells:1858 
+ERRORS:		0 
+RUNTIME:	5.038100 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:C:/laragon/www/e-mobility-rentals/wp-config.php
+New htaccess file created:C:/laragon/www/e-mobility-rentals/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "http://e-mobility-rentals.test/"
+	UPDATE DB_NAME ""e-mobility-rentals""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	WP CONFIG UPDATE WP_AUTO_UPDATE_CORE "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+\n SKIP FOLDER PERMISSION AFTER EXTRACTION
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 11:52:04 - RUNTIME: 0.1828 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\src\Core\Bootstrap.php:72] RESET TIME
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: C:/laragon/www/e-mobility-rentals/index.php
+E_WARNING count(): Parameter must be an array or an object that implements Countable
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\plugins\vikupdater\libraries\library.php[33]
+	--- TRACE ---
+	CLASS___: VikUpdaterLibrary::checkupdatesFILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-settings.php[617]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-config.php[98]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-load.php[50]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[13]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_1ebb9a2079cc55a2000b0101cdacaca1.list
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING file_get_contents(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_1ebb9a2079cc55a2000b0101cdacaca1.list): failed to open stream: No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	--- TRACE ---
+	FUNCTION: file_get_contents             FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	CLASS___: Less_Cache::ListFiles         FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[285]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_1ebb9a2079cc55a2000b0101cdacaca1.list): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_2ddee27714f779e8e7cc4b97ad8e8a72.list
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING file_get_contents(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_2ddee27714f779e8e7cc4b97ad8e8a72.list): failed to open stream: No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	--- TRACE ---
+	FUNCTION: file_get_contents             FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	CLASS___: Less_Cache::ListFiles         FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[285]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_2ddee27714f779e8e7cc4b97ad8e8a72.list): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_51faf538d69b19518d245595cce0832d.list
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING file_get_contents(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_51faf538d69b19518d245595cce0832d.list): failed to open stream: No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	--- TRACE ---
+	FUNCTION: file_get_contents             FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[307]
+	CLASS___: Less_Cache::ListFiles         FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[285]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_51faf538d69b19518d245595cce0832d.list): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_5eo17yv5gxcsw0c08sssso04w4wcw8o.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_5eo17yv5gxcsw0c08sssso04w4wcw8o.lesscache): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_7fkoxuac2js4sscwk4w8c0sssogswok.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_7fkoxuac2js4sscwk4w8c0sssogswok.lesscache): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_8ph24kb3c28scgs8kws8co4kgw8k440.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_8ph24kb3c28scgs8kws8co4kgw8k440.lesscache): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_ldhb406kudc4sgww8w8cw0swc4wgkss.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_ldhb406kudc4sgww8w8cw0swc4wgkss.lesscache): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_pjv8hu4ssg00sgoowc4kkkws4o80s8g.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING unlink(C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_pjv8hu4ssg00sgoowc4kkkws4o80s8g.lesscache): No such file or directory
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	--- TRACE ---
+	FUNCTION: unlink                        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[294]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\general-template.php[3043]
+	FUNCTION: wp_head                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\html.php[44]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\document.php[61]
+	CLASS___: VikWpDocument->display        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\front-page.php[92]
+	FUNCTION: include                       FILE: C:\laragon\www\e-mobility-rentals\wp-includes\template-loader.php[106]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-blog-header.php[19]
+	FUNCTION: require                       FILE: C:\laragon\www\e-mobility-rentals\index.php[17]
+	FUNCTION: require_once                  FILE: C:\laragon\www\e-mobility-rentals\wp-content\wp_test_script_8f4eaac-13145406.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://snapcreek.com/duplicator/docs 
+E_WARNING filemtime(): stat failed for C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\assets\css\less\cachelessphp_qrymwkios6s8sc08socsc8kos80so4o.lesscache
+	FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	--- TRACE ---
+	FUNCTION: filemtime                     FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\lib\lib\Less\Cache.php[275]
+	CLASS___: Less_Cache::CleanCache        FILE: C:\laragon\www\e-mobility-rentals\wp-content\themes\wp_adventures_theme\functions.php[146]
+	FUNCTION: compile_less_files_to_css     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: C:\laragon\www\e-mobility-rentals\wp-includes\class-wp-hook.php[332]
+	CLASS___: WP_Hook->do_action            FILE: C:\laragon\www\e-mobility-rentals\wp-includes\plugin.php[517]
+	FUNCTION: do_action                     FILE: C:\laragon\www\e-mobility-rentals\wp-includes\functions.wp-styles.php[57]
+	FUNCTION: wp_print_styles               FIL====================================
+LOG-TIME[C:\laragon\www\e-mobility-rentals\dup-installer\ctrls\ctrl.base.php:227][DELTA:   0.09246]  MESSAGE:END RENDER PAGE

@@ -1,0 +1,396 @@
+.full-row {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    margin-top: 100px;
+    left: 50%;
+}
+/**** Img Circle ***/
+.img-circle {
+	border:1px solid #ddd;
+	padding:3px;
+}
+
+/*** Img Left - Right ***/
+.img-left {
+	float: left;
+	margin: 0 15px 5px 0;
+}
+.img-right {
+	float: right;
+	margin: 0 0 15px 5px;
+}
+/**** Logo Rounded ****/
+#tbar-logo-center {
+	display: table;
+	margin: 0 auto;
+}
+.logorounded {
+	display: table;
+	margin: -31px auto 0;
+}
+/**** Module centered ****/
+.module-centered .moduletable {
+	width: 1280px;
+	margin: 30px auto !important;
+}
+/**** Small Row - create a small row just under the module ****/
+.small-row .moduletable {
+	position: relative;
+}
+.small-row .moduletable:after {
+	position: absolute;
+	width: 50px;
+	height: 1px;
+	background: #ccc;
+	content: "";
+	bottom: 0;
+	transform: translate(50%, 50%);
+	right: 50%;
+}
+
+/*** Module width forced to auto ***/
+.autowidth .moduletable, .autowidth.moduletable {
+	width: auto;
+	display: table;
+	margin-top: 20px;
+}
+
+/**** White - it makes white the background of the module. For the alignments with the website's spaces the padding it's 0 **/
+.white {
+	background: #fff;
+	padding: 20px;
+}
+
+/**** Grey - it makes grey the background of the module. **/
+.grey {
+	background: #F1F1F1;
+	padding: 25px 20px !important;
+}
+
+/**** Border Top. **/
+.border-top {
+	border-top:1px solid #eee;
+}
+/*** Background Transparent ***/
+.bg-transp {
+	background: transparent;
+}
+
+/**** imglarge - this cancel the padding only for the images **/
+.imglarge > .moduletable {
+	overflow: hidden;
+}
+.imglarge > .moduletable h3 {
+	padding: 0 0 25px 0;
+}
+.imglarge > .moduletable img {
+	margin: -9px 0 0 -10px;
+	width: 108%;
+}
+.white .moduletable > h3, .grey .moduletable > h3 {
+}
+.white .moduletable > img, .grey .moduletable > img {
+	margin: 0;
+}
+
+/**** leftborder - this cancel the padding only for the images **/
+
+.leftborder .moduletable {
+	overflow: hidden;
+}
+.leftborder .moduletable h3 {
+	/*margin: -15px 0 17px -15px;*/
+	margin: 10px 0 17px 0px;
+	padding: 0 0 0 15px;
+	border-left:3px solid #eee;
+}
+.leftborder.white .moduletable h3 {
+	margin: 0 0 17px;
+}
+
+/**** rightborder - this cancel the padding only for the images **/
+
+.rightborder .moduletable {
+	overflow: hidden;
+}
+.rightborder .moduletable h3 {
+	margin: 10px 0 17px 0px;
+	padding: 0 15px 0 0;
+	border-right:3px solid #eee;
+}
+.rightborder.white .moduletable h3 {
+	margin: 0 0 17px;
+}
+
+/**** Middle line Title ***/
+
+.middle-line  h3 {
+	position: relative;
+}
+.middle-line h3:before {
+	width: 100%;
+	height: 1px;
+	position: absolute;
+	content: "";
+	left: 0;
+	top: 50%;
+	background: #ccc;
+	z-index: 1;
+}
+.middle-line .e4j-menutitle-cnt {
+	background: #fff;
+	padding: 0 10px 0 0;
+	z-index: 10;
+	position: relative;
+}
+#upcontent .middle-line .e4j-menutitle-cnt {
+	background: #f1f1f1;
+}
+
+/**** Center Title ***/
+
+.title-center .moduletable > h3 {
+	text-align: center;
+	margin: 0 auto 10px;
+	display: table;
+	width: 80%;
+}
+.title-center .e4j-menutitle-cnt {
+	padding: 0 15px;
+}
+
+/*** Underline Title ***/
+
+.underline .moduletable h3 {
+	position: relative;
+	border-bottom:1px solid #ddd;
+	padding: 0 0 15px 0;
+	margin-bottom:12px;
+}
+
+/**** Right Title ***/
+
+.title-right .moduletable h3 {
+	text-align: right;
+}
+
+.title-right .moduletable .e4j-menutitle-cnt {
+	padding: 0;
+}
+
+/*** Border Coloured ***/
+
+.border .moduletable {
+	border-width: 1px;
+	border-style: solid;
+	padding: 17px;
+	color: #666;
+	font-size: 16px;
+}
+
+/*** Color module Light ***/
+
+.color-light {
+	padding: 25px !important;
+	font-size: 16px;
+}
+
+/*** Color module ***/
+
+.color {
+	padding: 25px !important;
+	font-size: 16px;
+}
+.color h1 {
+	color: #fff;
+}
+
+/*** Menu Inline ***/
+.menu-inline ul {
+	margin: 45px 0;
+}
+.menu-inline li {
+	display: inline-block;
+	margin: 0 20px;
+}
+
+.vikwallimage-desc h2 {
+	margin-top: 0;
+	padding-top: 0;
+}
+.e4j-float-left > h4 {
+    font-size: 16px;
+    margin: 3px 0 0;
+    padding: 0;
+}
+.text-big {
+	font-size: 2.6em;
+}
+.text-medium {
+	font-size: 1.6em;
+}
+
+/* Width Sizes */
+.nwidg-two.widget {
+    flex: 0 0 50%;
+}
+.nwidg-three.widget {
+    flex: 0 0 33.33%;
+}
+.nwidg-four.widget {
+    flex: 0 0 25%;
+}
+.nwidg-five.widget {
+    flex: 0 0 20%;
+}
+
+/* Blockquote */
+blockquote {
+    margin: 20px 20px;
+    padding: 20px;
+    font-size: 1.2em;
+    font-weight: 500;
+    background: #f6f6f6;
+}
+
+.text-color-inherit {
+    color: #545454 !important;
+}
+.text-border-left {
+	margin-bottom: 30px;
+	position: relative;
+}
+.text-border-left::after {
+    bottom: -20px;
+    left: 0%;
+    position: absolute;
+    width: 100px;
+    height: 4px;
+    content: "";
+    transform: translate(0%, 0%);
+}
+
+/* Theme Adventures Icons Extra Services */
+.mod-services {
+	padding-top:20px;
+}
+.mod-services .vikicons-item-inner {
+	border: 1px solid #ddd;
+	padding: 20px;
+	background: #fff;
+}
+.mod-services .vikicons-item-text h3 {
+	margin-bottom: 5px;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.black-bg {
+	background: #000;
+	color: #fff;
+}
+.black-bg a:hover {
+	color: #999;
+}
+#module-box-05 .widget .icons-style2.widget-inner {
+	padding: 40px;
+}
+.icons-style2 .vikicons-item {
+    border-right: 1px solid #444;
+    color: #999;
+}
+.icons-style2 .vikicons-item:last-child {
+	border: 0;
+}
+.icons-style2 .vikicons-item-inner {
+    justify-content: center;
+    padding: 0 10px;
+}
+.linkmenu-alt a {
+    border: 2px solid #ddd !important;
+    padding: 10px 15px !important;
+}
+.linkmenu-alt a::after {
+    position: relative !important;
+}
+.linkmenu-alt a:hover {
+    background-color: #dcbbbb33 !important;
+}
+.vikcounter-icon {
+	font-size: 36px;
+	color: #999;
+}
+.vikcounter .vikcounter-inner .vikcounter-title {
+	font-weight: bold;
+}
+
+
+/*** Hide on Devices ***/
+@media only screen and (min-device-width : 320px) and (max-device-width : 600px) {
+	.device-off {
+		display: none;
+	}
+}
+
+.vrcmodcarsgridboxdiv figcaption {
+	padding-right: 3px;
+	padding-left: 3px;
+	text-transform: none;
+}
+
+.vrcmodcarsgridboxdiv .vrcmodcarsgridstartfrom {
+	text-transform: none;
+}
+
+.vrcmodcarsgridboxdiv .vrcmodcarsgridview a {
+	text-transform: none;
+}
+
+.vrcmodcarsgridboxdiv .vrcmodcarsgridstartfrom span {
+	text-transform: none;
+}
+
+#vikwp_icons-17 {
+	padding-top:0px; 
+}
+
+#mod_vikrentcar_cars-3 {
+	padding-top:0px; 
+}
+
+#vikwp_googlemaps-8 {
+	padding-top: 25px;
+}
+
+.car_result {
+	border: 1px solid #ddd;
+	/*display: flex;
+	flex-wrap: wrap;*/
+	display: inline-block;
+    float: left;
+    width: 25%;
+}
+
+.car_result .vrc-car-lastblock {
+	    width: 100%;
+    text-align: center;
+}
+
+.car_result .vrc-car-name a {
+    font-size: 17px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+	.car_result {
+		display: flex;
+		width: 100%!important;
+	}
+}
+
+
+#vikwp_gridcontent-7 {
+	    background: #F1F1F1;
+}

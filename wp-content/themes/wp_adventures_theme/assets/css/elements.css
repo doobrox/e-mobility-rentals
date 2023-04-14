@@ -1,0 +1,41 @@
+/*** Elements styles **/
+
+a:hover {
+	text-decoration: none;
+}
+.btn, .comments-area .form-submit #submit, .vbmodroomsview > a:hover {
+	color: #fff;
+}
+.btn:hover, .comments-area .form-submit #submit:hover, .vbmodroomsview > a:hover {
+	background: transparent !important;
+}
+.btn.btn-grey {
+	background: #eee !important;
+	border: 2px solid #eee !important;
+	color: #666;
+}
+.btn.btn-grey:hover {
+	background: transparent; !important;
+	border: 2px solid #eee !important;
+	color: #666 !important;
+}
+.btn.btn-green {
+	background: #159049 !important;
+	border:2px solid #159049 !important;
+	color: #fff;
+}
+.btn.btn-green:hover {
+	background: transparent !important;
+	border:2px solid #159049 !important;
+	color: #159049 !important;
+}
+.btn.btn-blue {
+	background: #1c9cc4 !important;
+	border:2px solid #1c9cc4 !important;
+	color: #fff;
+}
+.btn.btn-blue:hover {
+	background: transparent !important;
+	border:2px solid #1c9cc4 !important;
+	color: #1c9cc4 !important;
+}

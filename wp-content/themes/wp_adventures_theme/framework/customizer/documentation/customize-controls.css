@@ -1,0 +1,101 @@
+#customize-controls .control-section-example-1 .accordion-section-title:hover,
+#customize-controls .control-section-example-1 .accordion-section-title:focus {
+	background-color: #fff;
+}
+.control-section-adventures_customizer_doc .accordion-section-title {
+	background: #f6f6f6 !important;
+	border-top: 2px solid #0086be;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+}
+.control-section-adventures_customizer_doc span {
+	float: left;
+	margin-top: 7px;
+	font-size: 1.1em;
+}
+.control-section-adventures_customizer_doc .btn {
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 3px;
+	background: #0086be;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 4px;
+	text-decoration: none;
+	float: right;
+}
+.adventures_update_theme_button {
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 3px;
+	background: #0086be;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+.control-section-adventures_customizer_doc .btn:hover, .adventures_update_theme_button:hover {
+	background: #126a8e;
+}
+.control-section-adventures_customizer_doc .btn:active, .control-section-adventures_customizer_doc .btn:focus, .adventures_update_theme_button:active {
+	background: #029ddb;
+}
+.head_desc {
+	background: #fff;
+	padding: 10px;
+	border-top: 1px solid #ccc;
+	border-left: 2px solid #1388c0;
+}
+.head_desc p {
+	margin: 2px 0;
+}
+.vikwp_grey_content {
+	background: #eeeeee;
+}
+.vikwp_grey_content-title {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 13px 10px;
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+}
+.vikwp_grey_content .vikwp_grey_content-desc {
+	padding: 2px 10px 5px;
+}
+#accordion-section-adventures_test_data .accordion-section-title {
+	background: #ebf6e2 !important;
+	border-top: 2px solid #00a138;
+	border-bottom: 2px solid #00a138;
+	border-left: 0;
+	display: inline-block;
+	width: 100%;
+	box-sizing: border-box;
+}
+#accordion-section-adventures_test_data .accordion-section-title span {
+	float: left;
+	margin-top: 5px;
+	font-size: 1.1em;
+}
+#accordion-section-adventures_test_data .btn {
+	font-weight: 400;
+	margin-left: 0;
+	margin-top: 3px;
+	background: #00a138;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	border-radius: 4px;
+	text-decoration: none;
+	float: right;
+	border: 0;
+	cursor: pointer;
+}
+#accordion-section-adventures_test_data .btn:hover {
+	background: #046325;
+}
+#accordion-section-adventures_test_data .btn:focus, #accordion-section-adventures_test_data .btn:active {
+	background: #2dbf60;
+}

@@ -1,0 +1,591 @@
+/*** Header Image **/
+#imgheader {
+	min-height: 500px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+/*** Slider **/
+#featured-slider {
+	border-bottom: 1px solid #EAEAEA;
+}
+#featured-slider,
+#featured-slider .slider-cycle {
+	position: relative;
+}
+#featured-slider .slider-container {
+	width: 100%;
+}
+#featured-slider .displayblock {
+	display: block;
+}
+#featured-slider .displaynone {
+	display: none;
+}
+#featured-slider .entry-container {
+	top: 50%;
+	-ms-transform: translateY(-50%); /* IE 9 */
+	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
+	position: absolute;
+	left: 5%;
+	max-width: 40%;
+}
+#featured-slider .entry-description-container {
+	background-color: #555555;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 10px 15px;
+	padding: 1rem 1.5rem;
+}
+#featured-slider img {
+	margin-bottom: 0px;
+}
+#featured-slider .slider-title-head {
+	display: inline-block;
+	left: 0;
+	margin-bottom: 5px;
+	margin-bottom: 0.5rem;
+}
+#featured-slider .entry-title {
+	padding: 0;
+}
+.slider-title-head .entry-title a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+#featured-slider .entry-title span {
+	color: #FFFFFF;
+	display: block;
+	font-size: 26px;
+}
+#featured-slider .entry-content {
+	color: #FFFFFF;
+	padding-top: 5px;
+	padding-top: 0.5rem;
+}
+#featured-slider .entry-content p {
+	margin: 0;
+	padding: 0;
+}
+#featured-slider .slider-read-more-button {
+	background-color: #0FBE7C;
+	color: #FFFFFF;
+	text-align: center;
+	font-family: 'Lato',sans-serif;
+	padding: 10px 15px;
+	padding: 1rem 1.5rem;
+	float: left;
+	margin-top: 15px;
+	font-size: 20px;
+}
+#featured-slider .slider-read-more-button:hover {
+	background-color: #666666;
+}
+#controllers {
+	text-align:center;
+	line-height:0;
+	position: absolute;
+	width: 100%;
+	bottom: 15px;
+	z-index: 999;
+}
+#controllers a {
+	width: 18px;
+	height: 6px;
+	margin: 0 4px;
+	overflow:hidden;
+	display:inline-block;
+	background-color: #FFFFFF;
+	color: #FFFFFF;
+}
+#controllers a:hover, #controllers a.active {
+	background-color: #0FBE7C;
+	color: #0FBE7C;
+}
+
+/* -- New Slider */
+.slider-fullwidth.bs-slider {
+	max-height: initial;
+}
+.fade:not(.show) {
+	opacity: 1;
+}
+#contentheader .indicators-line > .carousel-indicators {
+	left: 0%;
+	bottom: 150px !important;
+	transform: translate(50%, 50%);
+	margin: 0;
+}
+.control-round .carousel-control {
+    line-height: 45px !important;
+    text-align: center;
+}
+.vikcs-img-bckground {
+	width: 100%;
+	height: 100%;
+	background-position: center top;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.vikcs-slider .carousel-control-prev, .vikcs-slider .carousel-control-next {
+    width: 7%;
+    opacity: 0;
+}
+.vikcstsld-arrow path {
+    fill: #fff;
+}
+.vikcs-slider:hover .carousel-control {
+    opacity: 0.6;
+}
+.vikcs-slider:hover .carousel-control:hover {
+    opacity: 1;
+}
+.vikcstsld-arrow {
+    height: 50px;
+}
+.slide-text {
+	width: 1280px;
+	padding: 10px 0 !important;
+}
+.slide-text h2 {
+	font-weight: bold;
+	color: #fff;
+	font-size: 62px;
+}
+.slide-text > a.btn-default {
+	color: #fff !important;
+}
+.carousel-fade .carousel-item {
+	height: 100%;
+}
+.vikcs-slider .bs-slider-overlay {
+	background: #000 !important;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.slide-item .vikcs-img-bckground + .vikcs-img-bckground-tagimg {
+    display: none;
+}
+.vikcs-slider .img-bs-slider-overlay {
+	background: #000 !important;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+}
+
+.slidmodule .scroll-icon-arrow i {
+    position: absolute;
+    color: rgba(255,255,255,.6);
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+    border: 2px solid rgba(255,255,255,.6);
+    padding: 6px;
+    z-index: 1;
+    border-radius: 50%;
+    -webkit-animation: bounce 2s infinite 2s;
+    animation: bounce 2s infinite 2s;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    width: 30px;
+    height: 30px;
+}
+.slidmodule .scroll-icon-mouse,
+.slidmodule .scroll-icon-mouse:before {
+	position: absolute;
+	left: 50%;
+}
+.slidmodule .scroll-icon-mouse {
+	width: 40px;
+	height: 70px;
+	margin-left: -20px;
+	top: 85%;
+	left: 50%;
+	transform: translate(50%, -50%);
+	margin-top: -35px;
+	box-shadow: inset 0 0 0 1px #fff;
+	border-radius: 25px;
+	z-index: 1;
+}
+.slidmodule .scroll-icon-mouse:before {
+	content: '';
+	width: 8px;
+	height: 8px;
+	background: #fff;
+	margin-left: -4px;
+	top: 8px;
+	border-radius: 4px;
+	-webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-animation-name: scroll;
+    animation-name: scroll;
+}
+@keyframes scroll {
+	0% {
+		opacity: 1;
+	}
+   
+	100% {
+  		opacity: 0;
+    	transform: translateY(46px);
+	}    
+}
+  
+/*** Vik WP Textslide ***/
+#fullbox .widget_vikwp_textslide .vikwp_qt-container {
+	font-size: 1.4em;
+	font-style: normal;
+	letter-spacing: 0.5px;
+}
+
+/*** Archives ***/
+.widget_archive .screen-reader-text {
+	display: block;
+}
+.widget_archive select {
+	padding: 5px;
+}
+
+/*** Calendar ***/
+.widget_calendar #wp-calendar {
+	width: 100%;
+}
+.widget_calendar #wp-calendar caption {
+	caption-side: top;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/*** Pages ***/
+
+.widget_pages ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+
+/*** Recent Post ***/
+.widget_recent_entries ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+.widget_recent_entries .post-date {
+	font-size: .9em;
+	color: #666;
+}
+
+/*** Category ***/
+.widget_categories ul li {
+	list-style-type: none;
+	padding: 3px 0;
+	font-size: .8em;
+	color: #666;
+}
+.widget_categories ul li > a {
+	font-size: 1.2em;
+}
+.widget_categories .screen-reader-text {
+	display: block;
+	margin: 0 0 5px 0;
+}
+
+/*** Meta ***/
+.widget_meta ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+
+/*** Recent Comments ***/
+.widget_recent_comments ul li {
+	list-style-type: none;
+	padding: 3px 0;
+}
+
+/*** VikWP Cookies Policy ***/
+
+.vikcp-policy-container {
+  display: none;
+  position: relative;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+.vikcp-policy-inner {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  z-index: 9999999;
+}
+
+.vikcp-policy-display-bottom {
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.vikcp-policy-display-top {
+  top: 0;
+  left: 0;
+  height: 10%;
+  padding: 20px;
+}
+.vikcp-policy-display-bottom .vikcp-policy-link, .vikcp-policy-display-top .vikcp-policy-link {
+  margin: 0 8px 0 4px;
+}
+.vikcp-policy-display-middle .vikcp-policy-link {
+  display: block;
+}
+.vikcp-policy-link a {
+  font-weight: bold;
+  color: #eee;
+}
+.vikcp-policy-display-middle {
+  top: 35%;
+  left: 35%;
+  min-height: 15%;
+  width: 35%;
+  padding: 20px;
+}
+.vikcp-policy-display-middle #vikcp-policy-btn {
+  display: block;
+  text-align: center;
+  margin: 10px auto;
+}
+
+.vikcp-policy-inner button {
+  -moz-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  -webkit-box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  box-shadow:inset 0px 1px 0px 0px #54a3f7;
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #007dc1), color-stop(1, #0061a7));
+  background:-moz-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-webkit-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-o-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:-ms-linear-gradient(top, #007dc1 5%, #0061a7 100%);
+  background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#007dc1', endColorstr='#0061a7',GradientType=0);
+  background-color:#007dc1;
+  -moz-border-radius:3px;
+  -webkit-border-radius:3px;
+  border-radius:3px;
+  border:1px solid #124d77;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:13px;
+  padding:6px 24px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #154682;
+}
+.vikcp-policy-inner button:hover {
+  background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #0061a7), color-stop(1, #007dc1));
+  background:-moz-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-webkit-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-o-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:-ms-linear-gradient(top, #0061a7 5%, #007dc1 100%);
+  background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#0061a7', endColorstr='#007dc1',GradientType=0);
+  background-color:#0061a7;
+}
+.vikcp-policy-inner button:active {
+  position:relative;
+  top:1px;
+}
+
+/*** Mulilanguage System - Polylang ***/
+.pll-parent-menu-item img {
+	margin-top: -2px;
+}
+
+/*** Static Image Slider ***/
+.imgstatic-text {
+	text-align: center;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+	color: #fff;
+}
+.imgstatic-text h2 {
+	color: #fff;
+}
+
+/*** Contact Form 7 ***/
+.wpcf7-form {
+	margin-top: 20px;
+}
+.wpcf7-form label {
+	width: 100%;
+	font-weight: bold;
+	margin-bottom: 5px;
+}
+.wpcf7-submit {
+	color: #fff;
+	width: 100%;
+}
+.wpcf7-form-control-wrap {
+	width: 100%;
+	display: inline-block;
+}
+.wpcf7-form-control {
+	width: 100%;
+	font-size: .9em;
+}
+.wpcf7-form div {
+	margin: 5px 0 10px;
+}
+
+/** Widgets pre-styled **/
+.widget_vikwp_counter .vikcounter {
+	width: 1280px;
+	margin: 0 auto;
+}
+.mainbox-sidebarson .widget_vikwp_counter .vikcounter {
+	width: 100%;
+}
+.contact-info-box {
+	display: flex;
+	margin-top: 85px;
+}
+.contact-info-box .contact-desc {
+	color: #999;
+}
+.contact-info-box > .widget {
+	flex: 1;
+	padding: 20px;
+	margin: 20px;
+}
+.contact-info-box .vikicons-item {
+	margin: 10px 0;
+}
+.contact-info-box .vikicons-item .vikicons-item-text p {
+	margin-bottom: 0;
+}
+.vikicons-item-left .vikicons-item-text {
+    margin-left: 15px;
+}
+.vikicons-item-left .vikicons-item-text h3 {
+	font-size: 18px;
+}
+.vikqt-item-content .vikqt_image img {
+	width: 100px !important;
+	display: inline-block !important;
+}
+/* Vik Speaker */ 
+.widget_vikwp_speakers .viksp_container {
+	display: flex;
+}
+.widget_vikwp_speakers .viksp_text {
+	margin-right: 60px;
+	flex-basis: 20%;
+}
+.widget_vikwp_speakers .viksp-cnt-speakers {
+	flex: 1;
+}
+.widget_vikwp_speakers .viksp-inner {
+	background: #f6f6f6;
+}
+.widget_vikwp_speakers figcaption {
+	padding: 0 15px 15px;
+}
+.widget_vikwp_speakers .viksp-socials-link > a {
+	background: transparent;
+	font-size: 16px;
+	width: auto;
+	height: auto;
+	padding: 0 3px;
+	color: #333;
+}
+
+.full-featured .featured-container-img {
+    padding: 240px 0 120px;
+    text-align: center;
+}
+
+/* Vik Counter */
+.bg-grey {
+	width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+    background: #f6f6f6;
+}
+.mainbox-sidebarson .widget_vikwp_counter {
+	width: 100%;
+	margin-left: auto;
+	margin-top: 20px;
+	left: 0;
+}
+.widget_vikwp_counter .widgettitle {
+	text-align: center;
+	color: #545454;
+	font-weight: bold;
+}
+.widget_vikwp_counter .vikcounter-item-inner {
+    background: transparent;
+    border: 0;
+}
+.widget_vikwp_counter .vikcounter-count {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.widget_vikwp_counter .vikcounter-caption {
+    font-weight: bold;
+}
+
+/* Gallery */
+.post_format-post-format-gallery .entry-header {
+	text-align: center;
+}
+.gallery .gallery-item {
+	margin: 2px;
+}
+.gallery img {
+	border: 0 !important;
+}
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+}
+.gallery-columns-3 .gallery-item {
+	flex-basis: 32%;
+}
+.gallery-columns-4 .gallery-item {
+	flex-basis: 23%;
+}
+
+/* Search module on the slider */
+.h-search-inner .widget {
+	background: #222;
+	border-radius: 4px;
+	width: 100%;
+	padding: 30px;
+	position: relative;
+	margin: 0 auto;
+	color: #fff;
+}
+
+/* page Contact VikIcons */
+#modulebox-contact .vikicons-item {
+	padding: 10px 0;
+}
+#modulebox-contact .vikicons-item-text p {
+	margin: 0;
+}
+
+/* VikWP Grid Content */
+.vikwp_gc-content ul li {
+	margin-left: 30px;
+}
+

@@ -1,0 +1,782 @@
+@media screen and (max-width: 1280px) {
+	.widget_vikwp_counter .vikcounter, .h-search .grid-block {
+		width: 1024px;
+	}
+	.hp-image-structure {
+		padding: 0px 0 15px;
+	}
+	#lmpart .menumob-btn {
+		display: inline-block;
+	}
+	/*** --Start-- Mobile button ***/
+	#menumob-btn-ico {
+		display: block;
+	}
+	.menumob-btn {
+		display: block;
+		float: right;
+		display: inline-block;
+		margin: 25px 15px 0;
+		padding: 10px;
+	}   
+	#head-top-part .menumob-btn {
+		background-color:rgba(0,0,0,.8); 
+		border:0;
+	}
+	#tbar-logo {
+		margin-left: 10px;
+	}
+	.mainmenu, #tbar-user  {
+		display: none !important;
+		float: none;
+		text-align: left;
+		background: #414141;
+	}
+	.vikcs-link {
+		display: none;
+	}
+	.menumobile .mainmenu-items .l-inline li > .l-block {
+		top: 34px;
+	}
+	.menumobile .mainmenu-items .moduletable ul > li > a,
+	.menumobile .mainmenu-items .moduletable ul > li > span {
+		color: #fff !important;
+	}
+	.mainmenu .menumobile > .mainmenu-items > .spt-menu {
+		margin: 15px 0 0 !important;
+	}
+	.menumobile .loginmenu {
+		display: block;
+		float: none;
+	}
+	.menumobile .loginmenu h3 {
+		padding: 5px;
+		margin: 10px 0 10px 0;
+	}
+	.menumobile .loginmenu #login-form {
+		top: 30px;
+	}
+	.fx-menu-slide {
+		animation: none !important;
+		-webkit-animation: none !important;
+		border-bottom: 0;
+		height: auto;
+		position: inherit;
+		top: 0;
+		z-index: 100000;
+	}
+	.fx-menu-slide #tbar-logo .moduletable img {
+		width: auto;
+	}
+	/*** --End-- Mobile button ***/
+	footer .cnt-flex {
+		flex-wrap: wrap;
+	}
+	.vrc-oconfirm-maincnt .vrc-oconfirm-itinerary > .vrctable_divcnt {
+		flex-basis: 65%;
+	}
+	.vrc-oconfirm-summary-car-row .vrc-oconfirm-summary-car-cell-descr, .vrc-oconfirm-summary-car-row .vrc-oconfirm-summary-car-cell-descr, .vrc-oconfirm-summary-car-head .vrc-oconfirm-summary-car-cell-descr {
+		width: 30%;
+	}
+}
+@media screen and (max-width: 1160px) {
+	.search-horizontal h3 {
+		margin: 0;
+		padding: 0;
+	}
+	.vrc-oconfirm-maincnt .vrc-oconfirm-itinerary > .vrctable_divcnt {
+		flex-basis: 100%;
+	}
+	.vrc-oconfirm-maincnt > .vrc-oconfirm-itinerary > .vrcinfocarcontainer > div {
+		flex: 1;
+		flex-basis: inherit;
+	}
+	.vrcrentforlocs {
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 1024px) { 
+	.vikicons-item, .upfooter-item {
+		width: 50%;
+		flex-basis: 50%;
+		max-width: inherit;
+		float: left;
+	}
+	.icons-style2 .vikicons-item-inner {
+		justify-content: left;
+	}
+	.bottomsearch {
+		bottom: 0;
+		border-radius: 0;
+	}
+	.bottomsearch .widget {
+		border-radius: 0;
+	}
+	.widget_vikwp_counter .vikcounter, .h-search .grid-block {
+		width: 100%;
+	}
+	.page, .article-main-container .post, .blog {
+		padding: 0 20px 0;
+	}
+	#tbar-upmenu .upmenu-content {
+		padding: 0 15px 10px;
+	}
+}
+@media screen and (max-width: 990px) {
+	.mainbox-sidebarsboth, .mainbox-sidebarson {
+        flex-wrap: wrap;
+    }
+    .mainbox-sidebarsboth #main, .mainbox-sidebarson #main {
+        width: 100%;
+    }
+    .mainbox-sidebarsboth .sidebar, .mainbox-sidebarson .sidebar {
+        width: 100%;
+        margin: 0 !important;
+        padding: 0 20px;
+    }
+    .mainbox-sidebarson .sidebar .widget, .mainbox-sidebarsboth .sidebar .widget {
+    	padding: 10px 10px;
+    	margin: 5px 0px;
+    }
+    .sidebar .widget_mod_vikrentcar_search .vrc-searchmod-wrap-vertical form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+    	flex-wrap: nowrap;
+    }
+    .sidebar .widget_mod_vikrentcar_search .vrc-searchmod-wrap-vertical form .vrc-searchmod-section-datetimes .vrcsfentrytime {
+    	margin: 0 0 0 10px;
+    }
+    .vrc-car-result-rightinner-deep .vrc-car-lastblock {
+    	padding: 20px 30px;
+    }
+	.vrc-oconfirm-summary-car-row .vrc-oconfirm-summary-car-cell-descr, .vrc-oconfirm-summary-car-row .vrc-oconfirm-summary-car-cell-descr, .vrc-oconfirm-summary-car-head .vrc-oconfirm-summary-car-cell-descr {
+		width: 100%;
+	}
+	.vrc-promotion-car-block {
+		flex-basis: calc(50% - 20px);
+	}
+	.vrc-oconfirm-summary-total-wrapper .vrc-oconfirm-summary-total-row > .vrc-oconfirm-summary-car-cell-days {
+        display: none;
+    }
+	.vrccaldivcont {
+		width: calc(50% - 14px);
+	}
+	.vrcdivsearch .vrclocationsbox {
+		flex-basis: 100%;
+		margin: 10px 0;
+	}
+}
+@media screen and (max-width: 860px) {
+	.contact-info-box {
+		flex-wrap: wrap;
+	}
+	.contact-info-box > .widget {
+		flex: 100%;
+		background: #f6f6f6;
+	}
+	.wpcf7-form .wpcf7-text, .wpcf7-form .wpcf7-textarea {
+		background: transparent;
+	}
+	.head-slider-enabled {
+		position: relative;
+		margin-top: 0 !important;
+		background: #000;
+	}
+	.post-blog {
+		margin: 20px 0;
+		border: 1px solid #eee;
+	}
+	.bloglist-layout > div {
+		flex: 100%;
+	}
+	.bloglist-layout .blog-cnt-text {
+		order: 1;
+		padding: 20px;
+	}
+	.bloglist-layout .blog-cnt-text .entry-meta {
+		margin-bottom: 0;
+	}
+	.bloglist-layout .img-thumbnail {
+		order: 2;
+	}
+	.vrcsearchview .vrc-searchf-section-locations {
+		max-width: inherit;
+		width: 100%;
+	}
+	.vrcsearchview .vrcsfentrycont > div select {
+		width: 100%;
+	}
+	.vrcsearchview .vrc-searchf-section-datetimes {
+		width: 100%;
+	}
+	.vrcsearchview .vrc-searchf-section-datetimes .vrcsfentrycont .vrc-sf-time-container {
+		display: flex;
+	}
+	.vrcsearchview .vrc-searchf-section-datetimes .vrcsfentrycont .vrc-sf-time-container #vrccomselph,
+	.vrcsearchview .vrc-searchf-section-datetimes .vrcsfentrycont .vrc-sf-time-container #vrccomselpm,
+	.vrcsearchview .vrc-searchf-section-datetimes .vrcsfentrycont .vrc-sf-time-container #vrccomseldh,
+	.vrcsearchview .vrc-searchf-section-datetimes .vrcsfentrycont .vrc-sf-time-container #vrccomseldm {
+		flex: 1;
+	}
+	.vrcsearchview .vrc-searchf-section-categories {
+		width: 100%;
+		margin-right: 0;
+	}
+	.vrcsearchview .vrc-searchf-section-sbmt {
+		margin-left: 0;
+		width: 100%;
+	}
+	.vrcsearchview .vrc-searchf-section-sbmt .vrcsfentrycont {
+		margin-top: 0 !important;
+	}
+	.vrcsearchview .vrc-search-btn {
+		width: 100%;
+	}
+	.vrc-promotion-details {
+		flex-wrap: wrap;
+	}
+	.vrc-promotion-bottom-block {
+		width: 100%;
+		padding: 0 !important;
+	}
+	.vrc-promotion-name {
+		text-align: center;
+	}
+	.vrc-promotion-cars-list > .vrc-promotion-car-block {
+		flex-basis: calc(50% - 20px);
+	}
+	.vrc-promotion-details > .vrc-promotion-head {
+		flex-basis: 100%;
+		text-align: left;
+		margin: 0 10px 0 0;
+	}
+	.vrc-promotion-dates .vrc-promotion-dates-right {
+		flex: 1;
+		margin: 0;
+		margin-left: auto;
+	}
+	.vrc-promotion-dates-left > div {
+		float: none;
+	}
+	.vrcdivsearch .vrc-searchf-section-locations {
+		max-width: 100%;
+		width: 100%;
+	}
+	.vrcdivsearch .vrcsfentryselect select {
+		width: 100%;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes {
+		width: 100%;
+	}
+	.vrcdivsearch .vrcsfentrycont > .vrcsfentrytime {
+		width: auto;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrcsfentrycont .vrcsfentrylabsel {
+		flex: 1;
+		margin-right: 10px;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrcsfentrycont .vrcsfentrydate {
+		width: 100%;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrc-sf-time-container {
+		width: 100%;
+		display: flex;
+	}
+	.vrcdivsearch .vrc-searchf-section-sbmt {
+		margin-left: 0;
+		width: 100%;
+	}
+	.vrcdivsearch .vrc-searchf-section-sbmt .btn {
+		width: 100%;
+	}
+	footer .nwidg-two > .widget, #modulebox-contact .nwidg-two > .widget {
+		flex: 0 0 100% !important;
+		padding: 20px 40px;
+	}
+	footer .widget {
+		padding: 10px 20px;
+	}
+	.vrc-promotion-head {
+		flex-basis: 100%;
+	}
+}
+@media screen and (max-width: 800px) {
+	.mainmenu .l-inline li .l-block > div {
+		background: transparent !important;
+		margin: 0 !important;
+	}
+	.contact-address > dl {
+		width: 100%;
+	}
+	.contact-address dd {
+		margin-left: 30px;
+		padding: 5px 0;
+	}
+	.vikthumbnail-grid figure {
+		width: 50%;
+	}
+	.e4j-newslett .e4j-float-left {
+		margin-right: 2em;
+	}
+	select, select option {
+		background-color: transparent;
+	}
+}
+@media screen and (max-width: 768px) {
+	footer .cnt-flex > .widget {
+		flex: 50%;
+	}
+	.vikcounter-item {
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+	.widget_vikwp_speakers .viksp_container {
+		flex-wrap: wrap;
+	}
+	.widget_vikwp_speakers .viksp_text {
+		flex: 100%;
+		margin-right: 0;
+		padding: 0 20px;
+	}
+	.items-row .post .blog-cnt-text {
+		flex: 100%;
+	}
+	.blog .items-row .item-image {
+		margin: 0;
+		order: 0;
+		max-width: 100%;
+	}
+	.blog .items-row .bloglist-featured-img img {
+		visibility: visible;
+	}
+	.vrc-oconfirm-maincnt > .vrc-oconfirm-itinerary > .vrcinfocarcontainer > .vrc-summary-car-img {
+		flex-basis: 230px;
+		flex-grow: 0;
+		margin: 0 auto;
+	}
+	.vrc-oconfirm-maincnt > .vrc-oconfirm-itinerary > .vrcinfocarcontainer > .vrcrentforlocs {
+		flex-basis: 100%;
+	}
+}
+@media screen and (max-width: 715px) {
+	#tbar-logo {
+		width: auto;
+	}
+	#main {
+		float: none;
+		width: 100% !important;
+		left: 0 !important;
+	}
+	aside {
+		float: none;
+		width: 100% !important;
+	}
+	.grid-box {
+		float: none;
+	}
+	footer .cnt-flex {
+		display: inline-block;
+		width: 100%;
+	}
+	footer .cnt-flex > .widget {
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.sidebar .grid-module,
+	#module-box1 .grid-module,
+	footer .grid-module,
+	#subcontent .grid-module,
+	#upcontent .grid-module,
+	#module-box2 .grid-module {
+		width: 100% !important;
+		float: left;
+	}
+	#sidebar-left {
+		left: 0 !important;
+	}
+	#sidebar-right {
+		left: 0 !important;
+	}
+	#tbar-logo,
+	#tbar-logo-center {
+		display: inline-block;
+		position: relative;
+	}
+	#tbar-user .moduletable,
+	#tbar-user .moduletable_menu {
+		float: none;
+		width: 100%;
+	}
+	#tbar-user .moduletable:last-child,
+	#tbar-user .moduletable_menu:last-child {
+		margin: 0;
+	}
+	.mainmenu {
+		width: 100%;
+	}
+	.mainmenu .l-inline {
+		margin: 5px 0 0;
+	}
+	.blog .cols-3 .items-div-blog {
+		width: 96%;
+	}
+	.slogan-content .slogan-dx,
+	.slogan-content .slogan-sx {
+		display: none;
+	}
+	.slogan-content .slogan-mdl {
+		width: 100%;
+	}
+	.vikicons-item {
+		width: 100%;
+		float: none;
+	}
+	.vikcnt_left .vikgm_cnt_container, .vikcnt_right .vikgm_cnt_container {
+		width: 100%;
+		position: relative;
+		top: 0 !important;
+		left: 0 !important;
+		transform: translate(0, 0) !important;
+		height: auto !important;
+	}
+	#upfooter .upfooter-item {
+		width: 100%;
+		border: 0;
+		padding: 15px 0;
+		border-bottom: 1px solid #444;
+	}
+	#upfooter .upfooter-item-inner {
+		justify-content: left;
+	}
+	.vrc-oconfirm-itinerary .vrctable_divcnt {
+		flex-basis: 100% !important;
+		padding: 30px 0 !important;
+	}
+	.vrcinfocarcontainer .vrc-summary-car-img {
+		text-align: center;
+	}
+	.vrcinfocarcontainer .vrc-summary-car-img img {
+		float: none;
+	}
+	.vrccustomfields {
+		margin-top: 10px !important;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-categories {
+		flex-basis: 100%;
+	}
+	.vrcdivsearchmodule form .vrcsfentrycont, .vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 660px) {
+	.full-featured .featured-container-img {
+		padding: 180px 0 120px;
+	}
+	.vikwallimage-inner {
+		height: auto;
+		padding-bottom:20px;
+	}
+	.gallery .gallery-item {
+		flex-basis: 49%;
+	}
+	.comments-area {
+		width: 100%;
+	}
+	.vikicons-item, .upfooter-item {
+		width: 100%;
+		flex-basis: 100%;
+	}
+	.icons-style2 .vikicons-item {
+		border: 0;
+	}
+	.icons-style2 .vikicons-item-inner {
+		justify-content: left;
+	}
+	.vrc-searchmod-wrap-horizontal {
+		text-align: left;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes {
+		flex-wrap: wrap;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+		display: flex;
+		flex-basis: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-datetimes .vrcsfentrycont:first-child {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrylabsel {
+		flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+		width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrcsfentrycont {
+		margin: 5px 10px 5px 0;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont {
+		flex: 1;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrcsfentrycont select {
+		width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal .vrc-searchmod-section-sbmt {
+		width: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal .vrcsfentrysubmit .vrcsearch {
+		width: 100% !important;
+	}    
+	.vrcdivsearch {
+		flex-wrap: wrap;
+	}
+	.vrcdivsearch .vrclocationsbox {
+		flex-basis: 100%;
+	}
+	.vrclocationsmapdiv {
+		width: 100%;
+		margin-top: 10px;
+	}
+	.vrcstepsbarcont .vrc-stepbar {
+		flex-wrap: nowrap;
+	}
+	.vrcstepsbarcont .vrc-stepbar > li {
+		flex: 1;
+		border: 0;
+		text-align: center;
+	}
+	.vrcstepsbarcont .vrc-stepbar > li > ::before {
+		margin-right: 0;
+	}
+	.vrc-step-lbl {
+		display: none;
+	}
+	.vikcs-slider {
+		padding: 0 !important;
+	}
+	.vikcs-slider .slide-text {
+		padding: 10px 30px !important;
+	}
+	.slide-text h2 {
+		font-size: 32px;
+	}
+	.grid-block > .widget .icons-style2.widget-inner {
+		padding: 10px 0;
+	}
+	#upfooter .icons-style2 .container {
+		padding: 0;
+	}
+	#upfooter .icons-style2 .vikicons-item {
+		padding: 0;
+	}
+	.vrc-searchmod-wrap-horizontal > form > div.vrc-searchmod-section-categories {
+		flex-basis: 100%;
+	}
+	.vrcdivsearchmodule > form .vrc-searchmod-section-sbmt, .vrcdivsearchmodule > form .vrcsfentrycont, .vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes {
+		margin-right: 0;
+		margin-left: 0 !important;
+	}
+	.vrc-searchmod-wrap-horizontal > form > div.vrc-searchmod-section-categories .vrcsfentrycont {
+		margin-right: 0;
+	}
+	.vrcdivsearch.vrcdivsearchmodule {
+		padding: 0;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes {
+		flex-wrap: wrap;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrcsfentrycont {
+		flex-basis: 100%;
+		margin-right: 0;
+	}
+	.vrccaldivcont {
+		width: 100%;
+	}
+
+}
+@media screen and (max-width: 580px) {
+	.vrc-searchf-section-locations .vrcsfentrycont {
+		flex-basis: 100%;
+		margin-right: 0 !important;
+	}
+	.vrc-oconfirm-middlep > div {
+		flex-basis: 100%;
+	}
+	.vrc-enterpin-top #vrc-pincode-inp {
+		min-width: 200px;
+	}
+	.main-body {
+		padding: 15px 10px;
+	}
+	.vikcounter-item-inner {
+		padding: 20px 10px;
+	}
+	.vrccustomfields .vrcdivcustomfield {
+		width: auto;
+		display: block;
+	}
+	.vrc-promotion-car-block {
+		flex-basis: 100% !important;
+	}
+	.vrclocationbox {
+		width: 100% !important;
+	}
+	.vrc-searchmod-wrap-horizontal > form > div, .vrcdivsearchmodule form .vrcsfentrycont {
+		margin: 6px 0;
+	}
+	.vikcp-policy-display-bottom {
+		height: 20%;
+	}
+	.vrc-itinerary-summary > div {
+		flex-basis: 100%;
+		border-right: 0;
+	}
+	.vrc-itinerary-summary > .vrc-itinerary-pickup {
+		border-bottom: 1px solid #ddd;
+	}
+	.car_options table td input[type="number"] {
+		width: 80px;
+	}
+	.vrc-oconfirm-maincnt .vrc-oconfirm-itinerary {
+		display: inline-block;
+		width: 100%;
+	}
+	.vrctableorder .vrctableorderfrow td {
+		white-space: nowrap;
+	}
+	.vrc-oconfirm-paym-block ul li {
+		margin: 5px;
+	}
+	.vrc-save-order-block {
+		margin-bottom: 30px;
+	}
+	.vikcs-slider-cstsld {
+		height: auto !important;
+	}
+	.slide-item .vikcs-img-bckground {
+		display: none;
+	}
+	.slide-item .vikcs-img-bckground + .vikcs-img-bckground-tagimg {
+		display: block;
+	}
+	.vikcs-slider .img-bs-slider-overlay { 
+		display: block;
+	}
+	.full-featured .featured-container-img {
+        background-attachment: initial;	
+    }
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-datetimes > .vrcsfentrycont:first-child {
+		margin-right: 0;
+	}
+}
+@media screen and (max-width: 550px) {	
+	.group-contact-left, .group-contact-right {
+		width: 100%;
+	}
+	.vikthumbnail-grid figure {
+		width: 100%;
+	}
+	.category-module li {
+		width: 100%;
+	}
+	.pull-left, .pull-right {
+		float: none;
+		display: table;
+		margin: 15px auto;
+	}
+	.gallery .gallery-item {
+		flex-basis: 100%;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrcsfentrycont {
+		flex-wrap: wrap !important;
+	}
+	.vrcdivsearch .vrc-searchf-section-datetimes .vrcsfentrycont .vrcsfentrylabsel {
+		margin-right: 0 !important;
+	}
+	.vrcstepsbarcont .vrc-stepbar > li:last-child:before, .vrcstepsbarcont .vrc-stepbar > li:last-child:after {
+		border: 0;
+		position: relative;
+	}
+	.vikicons-item-left .vikicons-item-icon {
+		margin-right: 10px;
+	}
+	.vikicons-item-left .vikicons-item-icon i {
+		font-size: 18px !important;
+	}
+	.vikicons-item-left .vikicons-item-text {
+		margin-left: 10px;
+	}
+}
+@media screen and (max-width: 500px) {
+	.ui-datepicker.ui-datepicker-multi {
+		left: 0 !important;
+	}
+	.ui-datepicker-multi-2 .ui-datepicker-group {
+		width: 100% !important;
+	}
+	.h-search-inner .widget {
+		padding: 20px;
+	}
+	.vrcdivsearch.vrcdivsearchmodule {
+		padding: 15px 0;
+	}
+	.vrcdivsearch > form {
+		padding: 10px 0 !important;
+	}
+	.vrcstepsbarcont .vrc-stepbar > li {
+		padding: 0 18px;
+	}
+	
+}
+@media screen and (max-width: 400px) {
+	.sidebar .grid-module,
+	#module-box1 .grid-module,
+	footer .grid-module,
+	#subcontent .grid-module,
+	#upcontent .grid-module,
+	#module-box2 .grid-module {
+		width: 100% !important;
+		float: left;
+	}
+	.logorounded {
+		background: transparent;
+	}
+	#sidebar-footer .widget {
+		flex: 0 0 100%;
+	}
+}
+@media screen and (max-width: 350px) {
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-pickup {
+		margin-right: 0;
+	}
+	.vrc-searchmod-wrap-horizontal>form .vrc-searchmod-section-pickup {
+		flex-wrap: wrap !important;
+	}
+	.vrc-searchmod-wrap-horizontal form .vrc-searchmod-section-pickup .vrcsfentrycont {
+		flex-basis: 100%;
+	}
+	.vrc-searchmod-wrap-horizontal > form .vrc-searchmod-section-datetimes .vrcsfentrycont {
+		flex-wrap: wrap;
+	}
+	.vrcdivsearchmodule form .vrcsfentrycont {
+		margin: 5px 0 5px 0;
+	}
+	.vrcdivsearch .vrcsfentrycont > div {
+		margin: 5px 0;
+	}
+}
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+	.loginmenu .e4jaccountmanagercont {
+		left: auto;
+		right: 0;
+	}
+}
+}
+
+/***** Vik Content Slider ****/
+
+.vikcs-slide h2 {
+	font-size: 2em;
+	top: 9%;
+}

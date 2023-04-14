@@ -1,0 +1,27 @@
+/*
+Theme Name: Adventures
+Theme URI: https://vikwp.com
+Author: VikWP
+Author URI: https://vikwp.com
+Description: Created for all the type of Car Rentals agencies. Fully compatible with the VikRentCar plugin.
+Version: 1.2.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: https://vikwp.com/demo/vikrentcar/adventures
+Tags: vikrentcar, responsive, wordpress, car rentals, car hire
+*/
+
+@import url(assets/css/base.css);
+@import url(assets/css/layout.css);
+@import url(assets/css/modules.css);
+@import url(assets/css/elements.css);
+@import url(assets/css/styles.css);
+@import url(assets/css/template-parts.css);
+@import url(assets/css/themekit.css);
+
+/* Vik Info Demo s*/
+@import url(assets/css/vikinfodemo.css);
+
+#menutitlemob {
+	display: none;
+}

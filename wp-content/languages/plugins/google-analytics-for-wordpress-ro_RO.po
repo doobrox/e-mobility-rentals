@@ -1,0 +1,171 @@
+# Translation of Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) in Romanian
+# This file is distributed under the same license as the Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-24 20:15:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n == 0 || n % 100 >= 2 && n % 100 <= 19) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ro\n"
+"Project-Id-Version: Plugins - MonsterInsights &#8211; Google Analytics Dashboard for WordPress (Website Stats Made Easy) - Stable (latest release)\n"
+
+#. Translators: Number of visitors.
+#: languages/vue.php:1771
+msgid "%s Visitors"
+msgstr "Vizitatori %s"
+
+#: languages/vue.php:1756
+msgid "December"
+msgstr "Decembrie"
+
+#: languages/vue.php:1753
+msgid "November"
+msgstr "Noiembrie"
+
+#: languages/vue.php:1750
+msgid "October"
+msgstr "Octombrie"
+
+#: languages/vue.php:1747
+msgid "September"
+msgstr "Septembrie"
+
+#: languages/vue.php:1744
+msgid "August"
+msgstr "August"
+
+#: languages/vue.php:1741
+msgid "July"
+msgstr "Iulie"
+
+#: languages/vue.php:1738
+msgid "June"
+msgstr "Iunie"
+
+#: languages/vue.php:1735
+msgid "May"
+msgstr "Mai"
+
+#: languages/vue.php:1732
+msgid "April"
+msgstr "Aprilie"
+
+#: languages/vue.php:1729
+msgid "March"
+msgstr "Martie"
+
+#: languages/vue.php:1726
+msgid "February"
+msgstr "Februarie"
+
+#: languages/vue.php:1723
+msgid "January"
+msgstr "Ianuarie"
+
+#: languages/vue.php:1711
+msgid "Follow Us!"
+msgstr "Urmărește-ne!"
+
+#: languages/vue.php:1708
+msgid "Visit WPBeginner"
+msgstr "Vizitează WPBeginner"
+
+#. Author of the plugin
+#: includes/admin/admin.php:31 includes/admin/admin.php:34
+#: includes/admin/admin.php:42 includes/admin/wp-site-health.php:35
+#: includes/emails/class-emails.php:255
+#: lite/includes/admin/dashboard-widget.php:99
+#: lite/includes/admin/wp-site-health.php:249
+#: lite/includes/admin/wp-site-health.php:301
+#: lite/includes/admin/wp-site-health.php:328
+#: lite/includes/admin/wp-site-health.php:366
+#: lite/includes/admin/wp-site-health.php:393
+#: lite/includes/admin/wp-site-health.php:420
+#: lite/includes/admin/wp-site-health.php:445
+#: lite/includes/admin/wp-site-health.php:484
+msgid "MonsterInsights"
+msgstr "MonsterInsights"
+
+#: includes/admin/admin.php:31 includes/admin/admin.php:37
+#: includes/admin/admin.php:45 includes/admin/admin.php:90
+#: includes/admin/admin.php:93 includes/admin/admin.php:127
+#: languages/vue.php:251
+msgid "Insights"
+msgstr "Privire generală"
+
+#: languages/vue.php:1977
+msgid "Custom code"
+msgstr "Cod personalizat"
+
+#: languages/vue.php:2234
+msgid "Enable Demographics and Interests Reports for Remarketing and Advertising"
+msgstr "Activează rapoarte demografice și de interes pentru remarketing și publicitate"
+
+#: languages/vue.php:2572
+msgid "Enhanced Link Attribution"
+msgstr "Atribuire legătură îmbunătățită"
+
+#: languages/vue.php:975
+msgid "License Key"
+msgstr "Cheie licență"
+
+#: languages/vue.php:2261
+msgid "Extensions of Files to Track as Downloads"
+msgstr "Extensii de fișiere pentru a le urmări ca descărcări:"
+
+#: languages/vue.php:2407
+msgid "Paste your license key here"
+msgstr "Plasează cheia licenței aici"
+
+#: languages/vue.php:3788
+msgid "Reactivate License"
+msgstr "Reactivează licența"
+
+#: includes/admin/admin.php:34 includes/admin/admin.php:42
+#: includes/admin/admin.php:230 languages/vue.php:521
+msgid "Settings"
+msgstr "Setări"
+
+#: includes/gutenberg/headline-tool/headline-tool.php:304 languages/vue.php:527
+msgid "General"
+msgstr "General"
+
+#: languages/vue.php:542
+msgid "Advanced"
+msgstr "Avansat"
+
+#: includes/admin/admin.php:39 includes/admin/admin.php:131
+#: languages/vue.php:1984
+msgid "Reports"
+msgstr "Rapoarte"
+
+#: includes/admin/reports/overview.php:34 languages/vue.php:569
+msgid "Overview"
+msgstr "Prezentare generală"
+
+#: languages/vue.php:31
+msgid "Last Month"
+msgstr "Luna trecută"
+
+#: languages/vue.php:346
+msgid "Custom Dimensions"
+msgstr "Dimensiuni personalizate"
+
+#: languages/vue.php:2225
+msgid "Manually enter your UA code"
+msgstr "Introdu manual codul tău UA"
+
+#: languages/vue.php:464
+msgid "Save Changes"
+msgstr "Salvează modificările"
+
+#: languages/gutenberg.php:152 languages/vue.php:1343
+#: lite/includes/admin/metaboxes.php:65 lite/includes/admin/metaboxes.php:127
+msgid "Bounce Rate"
+msgstr "Rată de respingere"
+
+#: languages/vue.php:960
+msgid "eCommerce Tracking"
+msgstr "Urmărire eCommerce"

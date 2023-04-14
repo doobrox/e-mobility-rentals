@@ -1,0 +1,157 @@
+#tmpl-infodemo {
+    margin: 48px 0 0;
+}
+.vikinfodemocontainer { 
+	position: relative; 
+	overflow: auto; 
+	width:100%;
+	font-size:18px;
+	text-align:center;
+	background: #333;
+	position: fixed;
+	top:0;
+	z-index: 10000000;
+	border-bottom:1px solid #666;
+}
+.vikinfodemo {
+	margin: 0 auto;
+}
+.vikinfodemo-toolbar {
+	display: inline-block;
+	margin-left: -56.3px;
+}
+.vikinfodemocontainer ul {
+	margin:0;
+	padding:0;	
+	display: inline-block;
+	vertical-align: top;
+}
+.vikinfodemocontainer ul li {
+	padding:0;
+	display: inline-block;
+	vertical-align: top;
+	background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	-ms-background-size: 100% 100%;
+	text-align: center;
+}
+.vikinfodemocontainer ul li > * {
+	display: inline-block;
+	padding: 10px 15px;
+}
+.vikinfodemocontainer ul li > a i {
+	color: #fff;
+}
+.vikinfodemocontainer ul li > a:hover {
+	text-decoration: none;
+	background: #666;
+}
+.vikinfodemocontainer ul li > a:active {
+	background: #555;
+}
+.vikinfodemocontainer ul li .vikslideshow-desc, .infodemoadmin span {
+	font-size:12px;
+	color:#fff;
+	text-transform: uppercase;
+	margin-left: 4px;
+	margin-top: 5px;
+	display: inline-block;
+}
+.vikinfodemocontainer ul li .vikslideshow-button a {
+	color:#333;
+	text-decoration:none;
+	background:rgba(255,255,255,0.8);
+	padding:5px 10px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	display:inline-block;
+}
+.infodemopurchase {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+}
+.infodemopurchase a {
+	background: #0086be;
+	padding: 10px 15px;
+	font-weight: 500;
+	display: inline-block;
+}
+.vikinfodemocontainer .infodemopurchase > a:hover {
+	background: #1479a4;
+}
+.vikinfodemocontainer .infodemopurchase > a:active {
+	background: #40b6e9;
+	border: 0;
+}
+.infodemopurchase span {
+	display: inline-block;
+	float: none;
+	clear: both;
+	font-size:12px;
+	color:#fff;
+}
+.infodemoadmin {
+	display: inline-block;
+	vertical-align: top;
+}
+.infodemoadmin a {
+	text-decoration: none;
+	padding: 10px 15px;
+	background: #117682;
+	display: inline-block;
+}
+.infodemoadmin a:hover {
+	background: #0a99aa;
+}
+.infodemoadmin a:active {
+	background: #06616d;
+}
+.infodemoadmin a i {
+	color: #fff;
+}
+.logoe4j {
+	float: left;
+	display: inline-block;
+	text-align: center;
+	margin:0 0 0 20px;	
+}
+.logoe4j img {
+	padding: 6px 0 0;
+	opacity: 0.4;
+	height: 40px;
+}
+@media screen and (max-width: 716px) { 
+	.vikinfodemocontainer ul li > * {
+		padding: 10px 10px;
+	}
+}
+@media screen and (max-width: 860px) { 
+	#tmpl-infodemo {
+		margin-top: 0;
+	}
+	.vikinfodemocontainer {
+		position: relative;
+	}
+	.logoe4j {
+		display: none;
+	}
+	.vikinfodemo-toolbar {
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 685px) { 
+	.vikinfodemo-toolbar {
+		text-align: left;
+	}
+	.vikinfodemocontainer ul li > * {
+		padding: 10px 10px;
+	}
+}
+@media screen and (max-width: 550px) { 
+	#tmpl-infodemo {
+		display: none;
+	}
+}

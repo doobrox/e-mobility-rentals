@@ -1,0 +1,205 @@
+/* To specify what needs to be changed into the main color use #3aa41c
+To specify what needs to be changed into the second color use #3a8026 */
+
+
+/*
+.e4j-menutitle // Classe contenitore del Titolo modulo
+
+*/
+input[type="text"]:hover, input[type="email"]:hover, textarea:hover,
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+	border-color: #3aa41c;
+}
+a {
+	color: #3aa41c;
+}
+a:hover {
+	color: #3a8026;
+}
+select {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%233aa41c' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") !important;
+}
+#foot-cont a:hover, #subfooter .widget a:hover, .widget_vikwp_speakers .viksp-socials-link > a:hover {
+    color: #3aa41c;
+}
+#upfooter .upfooter-icon i, .subfooter-icons a:hover, .headt-part .upmenu-content .menu > li .sub-menu a:hover, .mainmenu .l-inline > div > ul .sub-menu li a:hover {
+    color: #3aa41c;
+}
+.btn, .comments-area .form-submit #submit, .wpcf7-submit, .btn.vrc-pref-color-btn {
+	background: #3aa41c !important;
+	border: 2px solid #3aa41c !important;
+}
+.btn:hover, .comments-area .form-submit #submit:hover, .wpcf7-submit:hover, .btn.vrc-pref-color-btn:hover {
+	border: 2px solid #3aa41c !important;
+	color: #3aa41c !important;
+	background-color: transparent !important;
+}
+.input_border:focus {
+	border: 1px solid #3aa41c;
+}
+
+/* menu */
+.menu > ul > li > a::after, .mainmenu .l-inline > div > ul > li > div > a::after, 
+.nav-devices-list .l-inline > ul > li > div > a::after, .nav-devices-list .l-inline > h3 > div > a::after, 
+.menu > ul > li > div > span::after, .mainmenu .l-inline > div > ul > li > div > span::after, 
+.nav-devices-list .l-inline > ul > li > div > span::after, .nav-devices-list .l-inline > h3 > span::after,
+.mainmenu .nav > li.current-menu-item > div > *:after, .mainmenu .nav > li.current-menu-parent > div > *:after {
+	background: #3aa41c;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li > a,
+.nav-devices-inner .menu-main-menu-container > ul > li span {
+	color:#fff;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li:hover > a,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li:hover > a,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li > .sub-menu > li:hover > a {
+	background: #3aa41c;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li:hover > a {
+	color: #fff;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > a,
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > a > span,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li.current_page_item > a,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li.current_page_item > a > span,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li > .sub-menu > li.current_page_item > a,
+.nav-devices-inner .menu-main-menu-container > ul > li > .sub-menu > li > .sub-menu > li.current_page_item > span {
+	background: #3aa41c;
+	color: #fff;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > a:after,
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > a > span:after {
+	display: none;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > .l-block {
+	border-bottom: 2px solid #3a8026;
+}
+.nav-devices-inner .menu-main-menu-container > ul > li.current_page_item > .l-block a {
+	color: #fff;
+}
+.mainmenu .nav > li > div > *:hover:after,
+.mainmenu .nav > li > div > *:focus:after,
+.mainmenu .moduletable h3:focus:after,
+.mainmenu .moduletable h3:hover:after,
+.nav-devices-list .nav > li  > div > *:hover:after,
+.nav-devices-list .nav > li  > div > *:focus:after,
+.nav-devices-list .moduletable > h3:hover:after,
+.nav-devices-list .moduletable > h3:focus:after {
+    text-transform: uppercase;
+    background: #3aa41c !important;
+}
+.l-inline li .nav-child li.current-menu-item > div > a, .l-inline li .nav-child li.current-menu-item > div > span, 
+.l-inline li .nav-child li > div > a:hover, .l-inline li .nav-child li > div > span:hover {
+    color: #3aa41c;
+}
+.widget_vikwp_counter .vikcounter-count {
+	color: #3aa41c;
+}
+.vrcdivsearchmodule .vrcsfentrysubmit .vrcsearch:hover {
+	color: #3aa41c !important;
+}
+.wpcf7-form .wpcf7-text:hover, .wpcf7-form .wpcf7-textarea:hover, .comment-form input[type="text"]:hover, .comment-form input[type="email"]:hover, .comment-form textarea:hover {
+	border-color: #3aa41c;
+}
+.wpcf7-form .wpcf7-text:focus, .wpcf7-form .wpcf7-textarea:focus, .comment-form input[type="text"]:focus, .comment-form input[type="email"]:focus, .comment-form textarea:focus {
+	border-color: #3aa41c;
+	background: #fff;
+}
+#modulebox-contact .vikicons-item-icoelem i {
+	color: #3aa41c;
+}
+.black-bg a {
+	color: #3aa41c;
+}
+.border-effect .vikwallimage-contents .vikwallimage-desc::after, .border-effect .vikwallimage-contents .vikwallimage-title::before, .border-effect .vikwallimage-contents.notitle .vikwallimage-desc::before, .text-border::after, .text-border-left::after {
+    background: #3aa41c;
+}
+.text-color {
+	color: #3aa41c;
+}
+.upmenu-content a {
+	color: #999;
+}
+.upmenu-content a:hover {
+	color: #3aa41c;
+}
+.intcnt-bar input:focus, .intcnt-bar input:hover {
+	border-color: #3aa41c;
+}
+
+/* VikWidgetsLoader */
+.icons-style2 i {
+	color: #3aa41c;
+}
+
+/* jQuery Calendar */
+.ui-datepicker.ui-widget > .ui-datepicker-header {
+	background: #3aa41c;
+}
+.ui-datepicker.ui-widget td:hover {
+	background: #3a8026;
+	border-color: #3a8026 !important;
+}
+.ui-datepicker.ui-widget td.ui-datepicker-today {
+	background: #3a8026;
+	color: #fff !important;
+	border-color: #3a8026 !important;
+}
+.ui-datepicker.ui-widget td.ui-datepicker-today > a {
+	color: #fff !important;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+	color: #3aa41c;
+}
+
+/* VRC */
+.vrccaldivcon, .vrclocationbox {
+	border-top: 2px solid #3aa41c;
+}
+.vrc-itinerary-confirmation > div, .vrc-oconfirm-paym-block ul .vrc-gpay-licont-active {
+	border: 2px solid #3aa41c;
+}
+.vrccal tr:first-child, .vrcstepsbarcont > .vrc-stepbar li a:hover, .vrc-promotion-date-validuntil {
+	color: #3aa41c;
+}
+.vrc-car-carats .vrccarcarat span i, .vrc-showprc-car-carats .vrccarcarat span i, .vrc-car-characteristics .vrccarcarat i, .vrc-car-result-characteristics .vrccarcarat i, .vrcstepsbarcont > .vrc-stepbar li.vrc-step-complete > a::before, .vrcdivsearch .vrcsfentrylabsel .vrcsfentrydate i, .vrc-rental-summary-title {
+    color: #3aa41c !important;
+}
+.vrc-car-name a:hover, .vrclistgoon a:hover, .vrc-promotion-car-book-block a:hover {
+    color: #3a8026;   
+}
+.vrcstepsbarcont > .vrc-stepbar li.vrc-step-complete > a::before, .vrc-coupon-outer, .vrc-coupon-outer .vrcinputcoupon:focus, .vrc-coupon-outer .vrcinputcoupon:hover {
+	border-color: #3aa41c !important;
+}
+.vrcstepsbarcont > .vrc-stepbar li.vrc-step-complete > a:hover::before {
+	background: #3a8026 !important;
+}
+.vrcstepsbarcont > .vrc-stepbar li.vrc-step-current > span::before, .vrcmodcarsgridview a {
+	background: #3aa41c !important;
+}
+.vrcstepsbarcont > .vrc-stepbar li.vrc-step-current > span::before {
+	border-color: #3aa41c !important;
+}
+#tbar-upmenu .widget_mod_vikrentcar_currencyconverter select {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'%3E%3Cpath fill='%23FFFFFF' d='M2 0L0 2h4zm0 5L0 3h4z'/%3E%3C/svg%3E") !important;
+}
+.vrc-searchmod-section-datetimes .vrcsfentrydate i {
+	color: #3aa41c;
+}
+.vrccal tr td a:hover, .vrc-tbl-listres .vrcuserorderstable.table td a:hover {
+	color: #3aa41c;
+}
+.vrcdivsearch .vrclocationsbox a:hover {
+	background: #fff !important;
+	border-color: #3aa41c;
+	color: #3aa41c !important;
+}
+.vrcdivsearch .vrclocationsbox a:active, .vrcdivsearch .vrclocationsbox a:focus, .vrcdivsearch .vrclocationsbox a:visited {
+	background: #ddd !important;
+}
+.vrcmodcarsgridcontainer .owl-carousel .owl-dots .owl-dot.active {
+	background: #3aa41c
+}
+.vrc-showprc-prices-wrap .vrc-showprc-prices-inner > .vrc-showprc-price-row:hover, .vrc-showprc-prices-wrap .vrc-showprc-prices-inner > .vrc-showprc-price-row.vrc-showprc-price-selected {
+	border-color: #3aa41c !important;
+}
