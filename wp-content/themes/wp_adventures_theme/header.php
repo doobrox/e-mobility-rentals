@@ -102,7 +102,7 @@ if($template != $template_blank) { ?>
 						</div>
 					</div>
 					<div class="logomenu-cnt <?php echo (has_nav_menu('main-menu-right') or has_nav_menu('main-menu')) ? 'main-menu-cnt' : ''; ?>">
-
+ 
 						<!-- Main Navigation --> 
 						<?php if(has_nav_menu('main-menu')) {
 							get_template_part('template-parts/navigation/navigation', 'main');
