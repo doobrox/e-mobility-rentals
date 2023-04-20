@@ -41,6 +41,54 @@ class VikRentCar
 	 */
 	protected static $vars = array();
 
+	public static function getLowestPriceToShowIdCar($r) {
+
+        $dbo = JFactory::getDbo();
+        $q = "SELECT * FROM `wptp_vikrentcar_dispcost` WHERE `idcar`=".(int)$r[0]['idcar']." AND `days` = 100;";
+        $dbo->setQuery($q);
+        $dbo->execute();
+
+        $s = $dbo->loadRow();
+        return number_format($s[4] / 100, 2);
+
+    }
+
+    public static function getLowestPriceToShowPerDayIdCar($r, $days) {
+
+        $dbo = JFactory::getDbo();
+        $q = "SELECT * FROM `wptp_vikrentcar_dispcost` WHERE `idcar`=".(int)$r[0]['idcar']." AND `days` = ".$days.";";
+        $dbo->setQuery($q);
+        $dbo->execute();
+
+        $s = $dbo->loadRow();
+        return number_format($s[4] / $days, 2);
+
+    }
+
+    public static function getLowestPriceToShowId($c) {
+
+        $dbo = JFactory::getDbo();
+        $q = "SELECT * FROM `wptp_vikrentcar_dispcost` WHERE `idcar`=".$c['id']." AND `days` = 100;";
+        $dbo->setQuery($q);
+        $dbo->execute();
+
+        $s = $dbo->loadRow();
+        return number_format($s[4] / 100, 2);
+
+    }
+
+    public static function getLowestPriceToShowPerDayId($c, $days) {
+
+        $dbo = JFactory::getDbo();
+        $q = "SELECT * FROM `wptp_vikrentcar_dispcost` WHERE `idcar`=".$c['id']." AND `days` = ".$days.";";
+        $dbo->setQuery($q);
+        $dbo->execute();
+
+        $s = $dbo->loadRow();
+        return number_format($s[4] / $days, 2);
+
+    }
+
 	public static function addJoomlaUser($name, $username, $email, $password)
 	{
 		//new method

@@ -363,6 +363,10 @@ blockquote {
 	padding-top: 25px;
 }
 
+#vikwp_googlemaps-9 {
+	padding-top: 25px;
+}
+
 .car_result {
 	border: 1px solid #ddd;
 	/*display: flex;
@@ -393,4 +397,16 @@ blockquote {
 
 #vikwp_gridcontent-7 {
 	    background: #F1F1F1;
+}
+
+#vikwp_gridcontent-8 {
+	background: #F1F1F1;
+}
+
+.vrcmodcarsgrid-item-btm {
+	display: none!important;
+}
+
+.vrcstepsbarcont .vrc-stepbar li a {
+	pointer-events: none;
 }

@@ -73,7 +73,18 @@ $tindex = key($tars);
 	</ol>
 </div>
 
-<form action="<?php echo JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>" method="post" class="vrc-showprc-form">
+<?php
+
+$langLinks = '';
+
+if(pll_current_language() == 'en'){
+    $langLinks = str_replace('cautare-vehicul/', 'en/search-vehicles/', JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : '')));
+} else {
+    $langLinks = JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : ''));
+}
+
+?>
+<form action="<?php echo $langLinks; ?>" method="post" class="vrc-showprc-form">
 	<div class="vrc-showprc-container">
 		<div class="vrc-showprc-left">
 		<?php

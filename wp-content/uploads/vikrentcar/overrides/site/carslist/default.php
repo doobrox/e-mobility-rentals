@@ -247,6 +247,8 @@ span.vrcmodcarsgridname {
 foreach ($cars as $c) {
 	$carats = VikRentCar::getCarCaratOriz($c['idcarat'], array(), $vrc_tn);
 	$vcategory = VikRentCar::sayCategory($c['idcat'], $vrc_tn);
+
+    $car_cost = VikRentCar::getLowestPriceToShowId($c);
 	?>
 	<div class="vrc-modcars-item vrc-modcars-grid-item" style="width: 25%;">
       <figure class="vrcmodcarsgridcont-item">
@@ -265,9 +267,10 @@ foreach ($cars as $c) {
             <div class="vrcmodcarsgrid-item_details">
                <figcaption class="vrcmodcarsgrid-item_title"><a href="<?php echo JRoute::_('index.php?option=com_vikrentcar&view=cardetails&carid='.$c['id'].(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>"><?php echo $c['name']; ?></a></figcaption>
                <div class="vrcmodcarsgrid-box-cost">
-                  <span class="vrcmodcarsgridstartfrom">Incepand de la</span>
-                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo strlen($c['startfrom']) > 0 ? VikRentCar::numberFormat($c['startfrom']) : VikRentCar::numberFormat($c['cost']); ?></span><span class="vrc_currency"> EUR + TVA </span></span>
-                  <span class="vrcmodcarsgridstartfrom">/ zi</span>
+                  <span class="vrcmodcarsgridstartfrom"><?php pll_e('Incepand de la'); ?></span>
+<!--                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price">--><?php //echo strlen($c['startfrom']) > 0 ? VikRentCar::numberFormat($c['startfrom']) : VikRentCar::numberFormat($c['cost']); ?><!--</span><span class="vrc_currency"> EUR + --><?php //pll_e('TVA'); ?><!--</span></span>-->
+                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo $car_cost; ?></span><span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
+                  <span class="vrcmodcarsgridstartfrom">/ <?php pll_e('zi'); ?></span>
                   <br>				
                </div>
             </div>

@@ -935,7 +935,7 @@ if (is_array($cfields)) {
 		?>
 			<div class="vrcdivcustomfield vrc-oconfirm-cfield-entry-checkbox">
 				<div class="vrc-customfield-label">
-					<?php echo $isreq; ?><?php echo $fname; ?> <a href="/termeni-si-conditii/" target="_blanck" style="text-decoration: underline;">termenii si conditiile de utilizare</a>
+					<?php echo $isreq; ?><?php echo $fname; ?> <a href="<?php pll_e('/termeni-si-conditii/'); ?>" target="_blanck" style="text-decoration: underline;"> <?php pll_e('termenii si conditiile de utilizare'); ?></a>
 				</div>
 				<div class="vrc-customfield-input">
 					<input type="checkbox" name="vrcf<?php echo $cf['id']; ?>" id="vrcf-inp<?php echo $cf['id']; ?>" value="<?php echo JText::_('VRYES'); ?>"/>

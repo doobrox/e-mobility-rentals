@@ -86,6 +86,10 @@ class JRoute
 			$url = str_replace('https://', 'http://', $url);
 		}
 
+//		if(pll_current_language() == 'en'){ // ANTONIO
+//            $url= str_replace(JUri::root(), JUri::root().'en/', $url);
+//        }
+
 		return $url;
 	}
 

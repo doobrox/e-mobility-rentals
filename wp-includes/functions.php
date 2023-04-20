@@ -8444,3 +8444,13 @@ function wp_recursive_ksort( &$array ) {
 	}
 	ksort( $array );
 }
+// pll_e('Vezi Detalii');
+add_action('init', function() {
+    pll_register_string('vikwidgetsloader', 'Vezi Detalii');
+    pll_register_string('vikwidgetsloader', 'Incepand de la');
+    pll_register_string('vikwidgetsloader', 'TVA');
+    pll_register_string('vikwidgetsloader', 'zi');
+    pll_register_string('vikwidgetsloader', '/termeni-si-conditii/');
+    pll_register_string('vikwidgetsloader', 'termenii si conditiile de utilizare');
+    pll_register_string('vikwidgetsloader', 'Inchide');
+});

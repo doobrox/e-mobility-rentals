@@ -79,7 +79,7 @@ $myposts = get_posts( $pdet );
 						<?php if( has_post_thumbnail() ) { ?>
 						<div class="col-sm-12 col-md-12 col-lg-6 col-xl-6 vikwp_gc-image" style="position: relative;">
 							<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_post_thumbnail(); ?></a>
-							<a style="position: absolute;" class="btn-spec-desc btn btn-vrcmodcarsgrid-btn vrc-pref-color-btn" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">Vezi Detalii</a>
+							<a style="position: absolute;" class="btn-spec-desc btn btn-vrcmodcarsgrid-btn vrc-pref-color-btn" href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php pll_e('Vezi Detalii'); ?></a>
 						</div>
 						<?php } ?>
 					</div>		

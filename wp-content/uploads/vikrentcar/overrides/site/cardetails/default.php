@@ -136,7 +136,7 @@ $nowts = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
 		<div id="vrcdialog-overlay" style="display: none;">
 			<a class="vrcdialog-overlay-close" href="javascript: void(0);"></a>
 			<div class="vrcdialog-inner vrcdialog-reqinfo">
-				<div style="text-align: right;"><a class="vrcdialog-overlay-close-inside">Inchide X</a></div>
+				<div style="text-align: right;"><a class="vrcdialog-overlay-close-inside"><?php pll_e('Inchide'); ?> X</a></div>
 				<h4><?php echo JText::sprintf('VRCCARREQINFOTITLE', $car['name']); ?></h4>
 				<form action="<?php echo JRoute::_('index.php?option=com_vikrentcar&task=reqinfo'.(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>" method="post" onsubmit="return vrcValidateReqInfo();">
 					<input type="hidden" name="carid" value="<?php echo $car['id']; ?>" />
@@ -163,7 +163,7 @@ $nowts = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
 						}
 						?>
 						<div class="vrcdialog-reqinfo-formentry vrcdialog-reqinfo-formentry-ckbox">
-							* <?php echo $fname; ?> <a href="/termeni-si-conditii/" target="_blanck" style="text-decoration: underline;">termenii si conditiile de utilizare</a>
+							* <?php echo $fname; ?> <a href="<?php pll_e('/termeni-si-conditii/'); ?>" target="_blanck" style="text-decoration: underline;"><?php pll_e('termenii si conditiile de utilizare'); ?></a>
 							<input style="width: auto;" type="checkbox" name="vrcf" id="vrcf-inp" value="<?php echo JText::_('VRYES'); ?>"/>
 						</div>
 						<?php
@@ -233,8 +233,8 @@ $nowts = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
 		?>
 		<div class="vrc-cdetails-cost">
 			<span class="vrcliststartfrom"><?php echo JText::_('VRCLISTSFROM'); ?></span>
-			<span class="car_cost"><span class="vrc_price"><?php echo strlen($car['startfrom']) > 0 ? VikRentCar::numberFormat($car['startfrom']) : VikRentCar::numberFormat($car['cost']); ?></span> <span class="vrc_currency"> EUR </span></span>
-			<span class="vrcliststartfrom">pe zi</span>
+			<span class="car_cost"><span class="vrc_price"><?php echo strlen($car['startfrom']) > 0 ? VikRentCar::numberFormat($car['startfrom']) : VikRentCar::numberFormat($car['cost']); ?></span> <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
+			<span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
 		</div>
 		<?php
 		}

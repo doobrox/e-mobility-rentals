@@ -368,7 +368,12 @@ foreach ($res as $k => $r) {
 	$imgpath = file_exists(VRC_ADMIN_PATH.DS.'resources'.DS.'vthumb_'.$getcar['img']) ? VRC_ADMIN_URI.'resources/vthumb_'.$getcar['img'] : VRC_ADMIN_URI.'resources/'.$getcar['img'];
 	$vcategory = VikRentCar::sayCategory($getcar['idcat'], $vrc_tn);
 	$has_promotion = array_key_exists('promotion', $r[0]) ? true : false;
-	$car_cost = $tax_summary ? $r[0]['cost'] : VikRentCar::sayCostPlusIva($r[0]['cost'], $r[0]['idprice']);
+//	$car_cost = $tax_summary ? $r[0]['cost'] : VikRentCar::sayCostPlusIva($r[0]['cost'], $r[0]['idprice']);
+
+
+
+	$car_cost = VikRentCar::getLowestPriceToShowIdCar($r);
+	$car_cost_day = VikRentCar::getLowestPriceToShowPerDayIdCar($r, $days);
 	?>
 
 
@@ -384,14 +389,16 @@ foreach ($res as $k => $r) {
             <div class="vrcmodcarsgrid-item_details">
                <figcaption class="vrcmodcarsgrid-item_title"><?php echo $getcar['name']; ?></figcaption>
                <div class="vrcmodcarsgrid-box-cost">
-                  <span class="vrcmodcarsgridstartfrom">Incepand de la</span>
-                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo VikRentCar::numberFormat($car_cost); ?></span><span class="vrc_currency"> EUR </span></span>
+                  <span class="vrcmodcarsgridstartfrom"><?php pll_e('Incepand de la'); ?></span>
+                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo VikRentCar::numberFormat($car_cost); ?></span><span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
+                   <span class="vrcmodcarsgridstartfrom">/ <?php pll_e('zi'); ?></span>
                   <br>
                   <?php
                   if (($car_params['sdailycost'] == 1 && $days > 1) || 1===1) {
 						$costperday = $car_cost / $days;
 						?>
-							<span class="vrcmodcarsgridstartfrom"><?php echo VikRentCar::numberFormat($costperday); ?> EUR pe zi</span>
+<!--							<span class="vrcmodcarsgridstartfrom">--><?php //echo VikRentCar::numberFormat($costperday); ?><!-- EUR + --><?php //pll_e('TVA'); ?><!-- / --><?php //pll_e('zi'); ?><!--</span>-->
+							<span class="vrcmodcarsgridstartfrom"><?php echo VikRentCar::numberFormat($car_cost_day); ?> EUR + <?php pll_e('TVA'); ?> / <?php pll_e('zi'); ?></span>
 						<?php
 					}
 					?>
@@ -407,8 +414,16 @@ foreach ($res as $k => $r) {
 					 * 			So we need to use JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar') like the link above.
 					 * 			Also, the method of the form has to be POST.
 					 */
+
+                    $langLinks = '';
+
+                    if(pll_current_language() == 'en'){
+                        $langLinks = str_replace('cautare-vehicul/', 'en/search-vehicles/', JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : '')));
+                    } else {
+                        $langLinks = JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : ''));
+                    }
 					?>
-					<form action="<?php echo JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar'.(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>" method="post">
+					<form action="<?php echo $langLinks; ?>" method="post">
 						<input type="hidden" name="option" value="com_vikrentcar"/>
 			  			<input type="hidden" name="caropt" value="<?php echo $k; ?>"/>
 			  			<input type="hidden" name="days" value="<?php echo $days; ?>"/>
@@ -591,13 +606,23 @@ foreach ($res as $k => $r) {
 	<?php
 }
 ?>
+        <?php
 
+        $langLinks = '';
+
+        if(pll_current_language() == 'en'){
+            $langLinks = str_replace('cautare-vehicul/', 'en/search-vehicles/', JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar&pickup='.$pickup.'&return='.$release.(!empty($pitemid) ? '&Itemid='.$pitemid : '')));
+        } else {
+            $langLinks = JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar&pickup='.$pickup.'&return='.$release.(!empty($pitemid) ? '&Itemid='.$pitemid : ''));
+        }
+
+        ?>
 </div>
 <div style="text-align: center;">
 	<div class="goback" style="width: 100%;
     display: block;
     float: left;margin-top:20px;">
-		<a class="btn btn-default" href="<?php echo JRoute::_('index.php?option=com_vikrentcar&view=vikrentcar&pickup='.$pickup.'&return='.$release.(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>"><?php echo JText::_('VRCHANGEDATES'); ?></a>
+		<a class="btn btn-default" href="<?php echo $langLinks; ?>"><?php echo JText::_('VRCHANGEDATES'); ?></a>
 	</div>
 	</div>
 </div>

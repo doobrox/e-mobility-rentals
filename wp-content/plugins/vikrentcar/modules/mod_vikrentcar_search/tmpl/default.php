@@ -50,7 +50,18 @@ if (!empty($heading_text)) {
 	<?php
 }
 ?>
-	<form action="<?php echo JRoute::rewrite('index.php?option=com_vikrentcar&task=search&Itemid=' . $params->get('itemid', 0)); ?>" method="post" onsubmit="return vrcValidateSearch<?php echo $randid; ?>();">
+    <?php
+
+    $langLinks = '';
+
+    if(pll_current_language() == 'en'){
+        $langLinks = str_replace('cautare-vehicul/', 'en/search-vehicles/', JRoute::rewrite('index.php?option=com_vikrentcar&task=search&Itemid=' . $params->get('itemid', 0)));
+    } else {
+        $langLinks = $langLinks = str_replace('en/search-vehicles/', 'cautare-vehicul/', JRoute::rewrite('index.php?option=com_vikrentcar&task=search&Itemid=' . $params->get('itemid', 0)));
+    }
+
+    ?>
+	<form action="<?php echo $langLinks; ?>" method="post" onsubmit="return vrcValidateSearch<?php echo $randid; ?>();">
 		<input type="hidden" name="task" value="search"/>
     <?php
 	$diffopentime = false;
@@ -1174,7 +1185,8 @@ jQuery(function() {
     	<div class="vrc-searchmod-section-sbmt">
 			<div class="vrcsfentrycont">
 				<div class="vrcsfentrysubmit">
-					<button type="submit" class="btn vrcsearch vrc-pref-color-btn"><?php echo (strlen($params->get('srchbtntext')) > 0 ? $params->get('srchbtntext') : JText::translate('SEARCHD')); ?> Vezi Optiunile</button>
+<!--					<button type="submit" class="btn vrcsearch vrc-pref-color-btn">--><?php //echo (strlen($params->get('srchbtntext')) > 0 ? $params->get('srchbtntext') : JText::translate('SEARCHD')); ?><!-- Vezi Optiunile</button>-->
+					<button type="submit" class="btn vrcsearch vrc-pref-color-btn"><?php echo (strlen($params->get('srchbtntext')) > 0 ? $params->get('srchbtntext') : ''); ?> <?php echo JText::translate('SEARCHD'); ?></button>
 				</div>
 			</div>
 		</div>
