@@ -53,6 +53,8 @@ $numcalendars = VikRentCar::numCalendars();
 
 $carats = VikRentCar::getCarCaratOriz($car['idcarat'], array(), $vrc_tn);
 
+$car_cost = VikRentCar::getLowestPriceToShowId($car);
+
 $pitemid = VikRequest::getInt('Itemid', '', 'request');
 $vrcdateformat = VikRentCar::getDateFormat();
 $nowtf = VikRentCar::getTimeFormat();
@@ -231,11 +233,19 @@ $nowts = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
 
 		if ($car['cost'] > 0) {
 		?>
-		<div class="vrc-cdetails-cost">
-			<span class="vrcliststartfrom"><?php echo JText::_('VRCLISTSFROM'); ?></span>
-			<span class="car_cost"><span class="vrc_price"><?php echo strlen($car['startfrom']) > 0 ? VikRentCar::numberFormat($car['startfrom']) : VikRentCar::numberFormat($car['cost']); ?></span> <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
-			<span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
-		</div>
+<!--		<div class="vrc-cdetails-cost">-->
+<!--			<span class="vrcliststartfrom">--><?php //echo JText::_('VRCLISTSFROM'); ?><!--</span>-->
+<!--			<span class="car_cost"><span class="vrc_price">--><?php //echo strlen($car['startfrom']) > 0 ? VikRentCar::numberFormat($car['startfrom']) : VikRentCar::numberFormat($car['cost']); ?><!--</span> <span class="vrc_currency"> EUR + --><?php //pll_e('TVA'); ?><!--</span></span>-->
+<!--			<span class="vrcliststartfrom">/ --><?php //pll_e('zi'); ?><!--</span>-->
+<!--		</div>-->
+            <div class="vrc-cdetails-cost">
+                <span class="vrcliststartfrom"><?php pll_e('Incepand de la'); ?></span>
+                <span class="car_cost">
+                    <span class="vrc_price"><?php echo $car_cost; ?></span>
+                    <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
+                </span>
+                <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
+            </div>
 		<?php
 		}
 
