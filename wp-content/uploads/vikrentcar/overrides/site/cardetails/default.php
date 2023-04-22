@@ -249,71 +249,70 @@ $nowts = mktime(0, 0, 0, date('m'), date('d'), date('Y'));
                 </span>
                 <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
             </div>
+
+            <style>
+                .columns-table-display {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    width: 100%;
+                }
+
+                .column-table-display {
+                    flex: 33.33%;
+                    border: 1px solid rgba(221, 221, 221, 1);
+                    background-color: rgba(255, 253, 245, 1);
+                    text-align: center;
+                }
+
+                .h5-table-display {
+                    border-bottom: 1px solid rgba(221, 221, 221, 1);
+                    padding-top: 5px;
+                    padding-bottom: 5px;
+                }
+
+                .span-table-display {
+                    padding-bottom: 5px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                }
+
+                .price-table-display-days {
+                    padding-top: 5px;
+                }
+            </style>
+            <div class="price-table-display-days">
+                <div class="columns-table-display">
+                    <div class="column-table-display">
+                        <h5 class="h5-table-display">1 - 6 days</h5>
+                        <div class="span-table-display">
+                            <span class="vrc_price"><?php echo $car_cost_1_6; ?></span>
+                            <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
+                            <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
+                        </div>
+                    </div>
+                    <div class="column-table-display">
+                        <h5 class="h5-table-display">7 - 29 days</h5>
+                        <div class="span-table-display">
+                            <span class="vrc_price"><?php echo $car_cost_7_29; ?></span>
+                            <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
+                            <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
+                        </div>
+                    </div>
+                    <div class="column-table-display">
+                        <h5 class="h5-table-display">30 + days</h5>
+                        <div class="span-table-display">
+                            <span class="vrc_price"><?php echo $car_cost_30; ?></span>
+                            <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
+                            <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
 		<?php
 		}
 
 		?>
-
-        <style>
-            .columns-table-display {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                width: 100%;
-            }
-
-            .column-table-display {
-                flex: 33.33%;
-                border: 1px solid rgba(221, 221, 221, 1);
-                background-color: rgba(255, 253, 245, 1);
-                text-align: center;
-            }
-
-            .h5-table-display {
-                border-bottom: 1px solid rgba(221, 221, 221, 1);
-                padding-top: 5px;
-                padding-bottom: 5px;
-            }
-
-            .span-table-display {
-                padding-bottom: 5px;
-                padding-left: 5px;
-                padding-right: 5px;
-            }
-
-            .price-table-display-days {
-                padding-top: 5px;
-            }
-        </style>
-        <div class="price-table-display-days">
-            <div class="columns-table-display">
-                <div class="column-table-display">
-                    <h5 class="h5-table-display">1 - 6 days</h5>
-                    <div class="span-table-display">
-                        <span class="vrc_price"><?php echo $car_cost_1_6; ?></span>
-                        <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
-                        <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
-                    </div>
-                </div>
-                <div class="column-table-display">
-                    <h5 class="h5-table-display">7 - 29 days</h5>
-                    <div class="span-table-display">
-                        <span class="vrc_price"><?php echo $car_cost_7_29; ?></span>
-                        <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
-                        <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
-                    </div>
-                </div>
-                <div class="column-table-display">
-                    <h5 class="h5-table-display">30 + days</h5>
-                    <div class="span-table-display">
-                        <span class="vrc_price"><?php echo $car_cost_30; ?></span>
-                        <span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span>
-                        <span class="vrcliststartfrom">/ <?php pll_e('zi'); ?></span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
 
 	</div>
 </div>

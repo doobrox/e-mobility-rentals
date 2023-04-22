@@ -267,10 +267,16 @@ foreach ($cars as $c) {
             <div class="vrcmodcarsgrid-item_details">
                <figcaption class="vrcmodcarsgrid-item_title"><a href="<?php echo JRoute::_('index.php?option=com_vikrentcar&view=cardetails&carid='.$c['id'].(!empty($pitemid) ? '&Itemid='.$pitemid : '')); ?>"><?php echo $c['name']; ?></a></figcaption>
                <div class="vrcmodcarsgrid-box-cost">
+                   <?php
+                   if ($car_cost > 0) {
+                   ?>
                   <span class="vrcmodcarsgridstartfrom"><?php pll_e('Incepand de la'); ?></span>
 <!--                  <span class="vrcmodcarsgridcarcost"><span class="vrc_price">--><?php //echo strlen($c['startfrom']) > 0 ? VikRentCar::numberFormat($c['startfrom']) : VikRentCar::numberFormat($c['cost']); ?><!--</span><span class="vrc_currency"> EUR + --><?php //pll_e('TVA'); ?><!--</span></span>-->
                   <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo $car_cost; ?></span><span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
                   <span class="vrcmodcarsgridstartfrom">/ <?php pll_e('zi'); ?></span>
+                   <?php
+                   }
+                   ?>
                   <br>				
                </div>
             </div>

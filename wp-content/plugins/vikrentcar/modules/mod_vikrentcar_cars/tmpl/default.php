@@ -83,18 +83,21 @@ $document->addStyleSheet($baseurl.'modules/mod_vikrentcar_cars/mod_vikrentcar_ca
 				        <?php
 						}
 						?>
+                            <div class="vrcmodcarsgrid-box-cost">
 						<?php
 						if ($c['cost'] > 0) {
 						?>
-						<div class="vrcmodcarsgrid-box-cost">
+
 						<!-- 	<span class="vrcmodcarsgridstartfrom"><?php echo JText::translate('VRCMODCARSTARTFROM'); ?></span> -->
 							<span class="vrcmodcarsgridstartfrom"><?php pll_e('Incepand de la'); ?></span>
 							<span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo Modvikrentcar_carsHelper::numberFormat($car_cost); ?></span><span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
 							<span class="vrcmodcarsgridstartfrom">/ <?php pll_e('zi'); ?></span>
-						</div>
+						
 						<?php
 						}
 						?>
+                                <br>
+                            </div>
 				        </div>
 						<div class="vrcmodcarsgridview">
 							<!-- <a class="btn btn-vrcmodcarsgrid-btn vrc-pref-color-btn" href="<?php echo $car_link; ?>"><?php echo JText::translate('VRCMODCARCONTINUE'); ?></a> -->

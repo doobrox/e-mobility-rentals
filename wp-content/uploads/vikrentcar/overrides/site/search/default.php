@@ -389,9 +389,15 @@ foreach ($res as $k => $r) {
             <div class="vrcmodcarsgrid-item_details">
                <figcaption class="vrcmodcarsgrid-item_title"><?php echo $getcar['name']; ?></figcaption>
                <div class="vrcmodcarsgrid-box-cost">
+                   <?php
+                   if ($car_cost > 0) {
+                   ?>
                   <span class="vrcmodcarsgridstartfrom"><?php pll_e('Incepand de la'); ?></span>
                   <span class="vrcmodcarsgridcarcost"><span class="vrc_price"><?php echo VikRentCar::numberFormat($car_cost); ?></span><span class="vrc_currency"> EUR + <?php pll_e('TVA'); ?></span></span>
                    <span class="vrcmodcarsgridstartfrom">/ <?php pll_e('zi'); ?></span>
+                   <?php
+                   }
+                   ?>
                   <br>
                   <?php
                   if (($car_params['sdailycost'] == 1 && $days > 1) || 1===1) {
