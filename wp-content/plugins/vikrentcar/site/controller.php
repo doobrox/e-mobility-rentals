@@ -717,27 +717,6 @@ class VikRentCarController extends JControllerVikRentCar
 												<p class="successmade"><?php echo JText::translate('VRTHANKSONE'); ?></p>
 												<br/>
 												<p>&bull; <?php echo JText::translate('VRTHANKSTWO'); ?> <a style="text-decoration: underline;" href="<?php echo $viklink; ?>"><?php echo JText::translate('VRTHANKSTHREE'); ?></a></p>
-
-                                                <!-- Google tag (gtag.js) -->
-
-                                                <script async src="https://www.googletagmanager.com/gtag/js?id=G-LN742KSRH6">
-
-                                                </script>
-
-                                                <script>
-
-                                                    window.dataLayer = window.dataLayer || [];
-
-                                                    function gtag(){dataLayer.push(arguments);}
-
-                                                    gtag('js', new Date());
-
-
-
-                                                    gtag('config', 'G-LN742KSRH6');
-
-                                                </script>
-
 												<?php
 											}
 										} else {
