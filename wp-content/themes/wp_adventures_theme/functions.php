@@ -391,3 +391,9 @@ JS
 		echo '<script type="text/javascript">' . $script . '</script>';
 	});
 }
+
+add_action('init','add_get_val');
+function add_get_val() {
+    global $wp;
+    $wp->add_query_var('hash_order');
+}

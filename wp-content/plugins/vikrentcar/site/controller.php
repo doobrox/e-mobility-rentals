@@ -713,8 +713,16 @@ class VikRentCarController extends JControllerVikRentCar
 												//
 
 												echo VikRentCar::getFullFrontTitle();
+
+                                                $array_order = array('order_id' => $neworderid, 'sid' => $sid);
+
+                                                $redirect_url = add_query_arg( array(
+                                                    'hash_order' => base64_encode(json_encode($array_order)),
+                                                ), 'http://e-mobility-rentals.test/thank-you/' );
+                                                wp_redirect( $redirect_url );
+
 												?>
-												<p class="successmade"><?php echo JText::translate('VRTHANKSONE'); ?></p>
+												<p class="successmade site-controllers"><?php echo JText::translate('VRTHANKSONE'); ?></p>
 												<br/>
 												<p>&bull; <?php echo JText::translate('VRTHANKSTWO'); ?> <a style="text-decoration: underline;" href="<?php echo $viklink; ?>"><?php echo JText::translate('VRTHANKSTHREE'); ?></a></p>
 												<?php
